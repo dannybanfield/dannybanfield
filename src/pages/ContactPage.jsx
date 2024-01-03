@@ -5,6 +5,9 @@ import Instagram from "~/assets/logo-instagram.png";
 import YouTube from "~/assets/logo-youtube.png";
 import SoundCloud from "~/assets/logo-soundcloud.png";
 
+const myEmailToken = "890b0197fdbaace202000e78f7eef3d1";  // "dev@appurist.com";
+const emailSubmitAction = `https://formsubmit.co/${myEmailToken}`;
+
 export function ContactPage(props) {
   return (
     <div class="flex flex-col min-h-dvh bg-gradient-to-b from-black to-black to-90% pb-4">
@@ -68,12 +71,78 @@ export function ContactPage(props) {
               </p>
             </div>
           </div>
-          <div class="flex flex-col md:container md:mx-auto w-full text-center text-white text-left text-xl my-6 px-8">
+
+          <div class="flex flex-col md:container md:mx-auto w-full text-center text-white text-xl my-6 px-8">
             <p class="flex-row py-2 text-3xl gradient-text text-center">Book Me!</p>
             <p class="flex-row py-1">
-              <em>The Laughing Freemen</em> offer a show for all budgets! Contact Danny through <a href="http://localhost:3000/#book" class="link text-banfield">the Book Me! form</a>.
+              <em>The Laughing Freemen</em> offer a show for all budgets! Contact Danny through the <a href="#book" class="link text-banfield">booking form</a> below!
             </p>
           </div>
+          <BackToTop />
+
+          {/* ---------- SONG REQUESTS & BOOKING ---------- */}
+          <div id="requests" class="divider gradient-text mx-8" />
+          <div class="flex flex-row flex-wrap lg:flex-nowrap text-left px-4">
+            {/* ---------- SONG REQUEST ---------- */}
+            <div class="flex flex-col w-1/2 px-4">
+              <p class="text-2xl font-sans font-bold lg:mt-6">
+                <span class="gradient-text">Live Show Song Request</span>
+              </p>
+              <p class="text-white text-lg font-sans my-3">
+                If you're planning to attend one of my shows, let me know songs and/or artists you'd like to hear.... and why!!
+              </p>
+              <form action={emailSubmitAction} method="POST" class="flex flex-col border border-solid border-1 p-5">
+                <label for="name" class="text-white text-lg font-sans">What is your first name?</label>
+                <input id="name" name="name" type="text" class="text-black text-lg font-sans w-full my-3" />
+                <label for="message" class="text-white text-lg font-sans mt-3">What song(s) or artist(s) would you like to hear... and why? *</label>
+                <input id="message" name="message" type="text" class="text-black text-lg font-sans w-full my-3" />
+                <label for="when" class="text-white text-lg font-sans mt-3">Which of Danny's upcoming shows will you be attending?</label>
+                <textarea name="when" id="when" class="text-black text-lg font-sans w-full my-3" />
+                <button class="btn btn-warning w-40 text-xl mx-auto mt-3">Submit</button>
+                <p class="text-white text-xs ">* required</p>
+              </form>
+            </div>
+
+            {/* ---------- BOOK ME ---------- */}
+            <div id="book" class="divider divider-horizontal" />
+            <div class="flex flex-col w-1/2 px-4">
+              <p class="text-2xl font-sans font-bold lg:mt-6">
+                <span class="gradient-text">Book Me!</span>
+              </p>
+              <p class="text-white text-lg font-sans my-3">
+                Allow me to add some music, laughs and fond memories to your Private or business event.
+                Solo, duo, or band - I can do a show for every budget.
+                Please include details such as where, when, how many people, and times (all details subject to change).
+              </p>
+              <form action={emailSubmitAction} method="POST" class="flex flex-col border border-solid border-1 p-5">
+                <div class="flex flex-row gap-4">
+                  <div class="flex flex-col w-1/2">
+                    <label for="firstname" class="text-white text-lg font-sans">First Name</label>
+                    <input id="firstname" name="firstname" type="text" class="text-black text-lg font-sans w-full my-3" />
+                  </div>
+                  <div class="flex flex-col w-1/2">
+                    <label for="lastname" class="text-white text-lg font-sans">Last Name</label>
+                    <input id="lastname" name="lastname" type="text" class="text-black text-lg font-sans w-full my-3" />
+                  </div>
+                </div>
+                <div class="flex flex-row gap-4">
+                  <div class="flex flex-col w-1/2">
+                    <label for="email" class="text-white text-lg font-sans">Email Address *</label>
+                    <input id="email" name="email" type="email" class="text-black text-lg font-sans w-full my-3" />
+                  </div>
+                  <div class="flex flex-col w-1/2">
+                    <label for="phone" class="text-white text-lg font-sans">Phone</label>
+                    <input id="phone" name="phone" type="text" class="text-black text-lg font-sans w-full my-3" />
+                  </div>
+                </div>
+                <label for="message" class="text-white text-lg font-sans mt-3">Message (please include as many details as possible) *</label>
+                <textarea id="message" name="message" class="text-black text-lg font-sans w-full my-3" />
+                <button class="btn btn-warning w-40 text-xl mx-auto mt-3">Submit</button>
+                <p class="text-white text-xs ">* required</p>
+              </form>
+            </div>
+          </div>
+
           <BackToTop />
         </main>
       </div>
