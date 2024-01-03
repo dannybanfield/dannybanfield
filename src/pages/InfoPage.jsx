@@ -1,9 +1,10 @@
 import { Navbar } from "~/components/Navbar";
+import { BackToTop } from "~/components/BackToTop";
 import { SpotifyTrack } from "~/components/SpotifyTrack";
 
 import img01 from "~/assets/01-danguitar.webp";
 import img02 from "~/assets/02-danstage.webp";
-import img03 from "~/assets/03-shipwright.webp";
+import img03 from "~/assets/03-shipwright2.webp";
 import img04 from "~/assets/04-danchair.webp";
 import img05 from "~/assets/05-goldenyears.webp";
 import img06 from "~/assets/06-danpromo.webp";
@@ -42,6 +43,7 @@ export function InfoPage(props) {
               <img src={img09} class="bg-white my-2" alt="The band onstage" />
             </div>
           </div>
+
           <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
             <div class="flex-col basis-1/2">
               <p class="flex-row py-2">
@@ -64,6 +66,7 @@ export function InfoPage(props) {
               <SpotifyTrack track="4EXgkS7mmjZ0pFaEIBso8i" title="Coal Miner's Symphony on Spotify" />
             </div>
           </div>
+          <BackToTop />
         </main>
       </div>
     </div>

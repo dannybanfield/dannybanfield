@@ -3,7 +3,7 @@ import { BackToTop } from "~/components/BackToTop";
 import DanInBar from "~/assets/DanInBar.png";
 import Dan2 from "~/assets/Dan2.png";
 import StarSVG from "~/assets/star.svg";
-import ShipwrightPromo from "~/assets/03-shipwright.webp";
+import ShipwrightPromo from "~/assets/03-shipwright2.webp";
 
 const myEmailToken = "890b0197fdbaace202000e78f7eef3d1";  // "dev@appurist.com";
 const emailSubmitAction = `https://formsubmit.co/${myEmailToken}`;
