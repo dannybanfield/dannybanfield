@@ -80,8 +80,8 @@ export function ContactPage(props) {
           </div>
           <BackToTop />
 
+          <div id="requests" class="divider mx-8 my-2" />
           {/* ---------- SONG REQUESTS & BOOKING ---------- */}
-          <div id="requests" class="divider gradient-text mx-8" />
           <div class="flex flex-row flex-wrap lg:flex-nowrap text-left px-4">
             {/* ---------- SONG REQUEST ---------- */}
             <div class="flex flex-col w-1/2 px-4">
@@ -103,8 +103,8 @@ export function ContactPage(props) {
               </form>
             </div>
 
+            <div id="book" class="divider divider-horizontal mx-1" />
             {/* ---------- BOOK ME ---------- */}
-            <div id="book" class="divider divider-horizontal" />
             <div class="flex flex-col w-1/2 px-4">
               <p class="text-2xl font-sans font-bold lg:mt-6">
                 <span class="gradient-text">Book Me!</span>
