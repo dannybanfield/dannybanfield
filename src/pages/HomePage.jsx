@@ -30,15 +30,16 @@ export function HomePage() {
                 An engaging entertainer bringing you songs you forgot you loved, songs you've always loved,
                 and songs you will grow to love. Requests and musical guests welcome!!
               </div>
-              <button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button>
+              <a href="#book" target="_self" ><button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button></a>
             </div>
             <div class="flex-col">
               <image src={DanInBar} class="rounded-xl" alt="Danny Banfield in the Bar" />
             </div>
           </div>
-          <div class="divider gradient-text mx-8" />
 
-          <div id="party" class="flex flex-row flex-wrap  w-full justify-evenly text-center px-4">
+          <div id="party" class="divider gradient-text mx-8" />
+
+          <div class="flex flex-row flex-wrap  w-full justify-evenly text-center px-4">
             <div class="flex flex-col basis-2/5 px-4">
 
               <div class="flex flex-col lg:flex-row">
@@ -89,9 +90,9 @@ export function HomePage() {
           </div>
           <BackToTop />
 
-          <div class="divider gradient-text mx-8" />
+          <div id="shows" class="divider gradient-text mx-8" />
 
-          <div id="shows" class="flex flex-col w-full justify-evenly text-center px-4">
+          <div class="flex flex-col w-full justify-evenly text-center px-4">
             <p class="text-3xl font-sansmy-3"><span class="gradient-text">Upcoming Shows</span></p>
             <p class="text-white text-lg font-sans my-3">Shipwright Brewing Company, December 22, 2023, 8:30pm</p>
             <p class="text-white text-lg font-sans my-3">
@@ -103,9 +104,9 @@ export function HomePage() {
           </div>
           <BackToTop />
 
-          <div class="divider gradient-text mx-8" />
+          <div id="bio" class="divider gradient-text mx-8" />
 
-          <div id="bio" class="flex flex-row flex-wrap lg:flex-nowrap text-left px-4">
+          <div class="flex flex-row flex-wrap lg:flex-nowrap text-left px-4">
             <div class="flex flex-col px-4">
               <div class="flex flex-row my-3">
                 <p class="text-3xl font-sans gradient-text">About Danny</p>
@@ -126,9 +127,9 @@ export function HomePage() {
           </div>
           <BackToTop />
 
-          <div class="divider gradient-text mx-8" />
+          <div id="requests" class="divider gradient-text mx-8" />
 
-          <div id="requests" class="flex flex-row flex-wrap lg:flex-nowrap text-left px-4">
+          <div class="flex flex-row flex-wrap lg:flex-nowrap text-left px-4">
             <div class="flex flex-col w-1/2 px-4">
               <p class="text-2xl font-sans font-bold lg:mt-6">
                 <span class="gradient-text">Live Show Song Request</span>
@@ -147,7 +148,7 @@ export function HomePage() {
               </form>
             </div>
 
-            <div class="divider divider-horizontal" />
+            <div id="book" class="divider divider-horizontal" />
 
             <div class="flex flex-col w-1/2 px-4">
               <p class="text-2xl font-sans font-bold lg:mt-6">
@@ -186,7 +187,7 @@ export function HomePage() {
             </div>
           </div>
           <BackToTop />
-          <div id="requests" class="flex flex-row mb-8">
+          <div class="flex flex-row mb-8">
           </div>
         </main>
       </div>
