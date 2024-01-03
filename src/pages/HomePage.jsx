@@ -21,7 +21,7 @@ export function HomePage() {
             <a href="#requests" target="_self" class="btn max-w-32 border-b">Song Request</a>
           </div>
           <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl my-6">
-            <span class="gradient-text">DANNY BANFIELD</span>
+            <span class="gradient-text font-thin">DANNY BANFIELD</span>
           </div>
 
           <div class="flex flex-row text-amber-100 w-full justify-evenly px-8 text-center gap-4">
