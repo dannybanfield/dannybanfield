@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.navtext {
+  /* font-family: "space grotesk", sans-serif; */
+  font-size:  22px;
+  font-weight: 400;
+}
+
+.dantext {
+  /* font-family: "space grotesk", sans-serif; */
+  /* font-size:  22px;
+  font-weight: 400; */
+}
+
+.gradient-text-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-justify: center;
+}
+.gradient-text {
+  background: linear-gradient(
+    160deg,
+    #172554 15%,
+    #fef3c7 30%,
+    #fdba74 60%,
+    #854d0e 80%,
+    #422006 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
