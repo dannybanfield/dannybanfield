@@ -25,11 +25,18 @@
     160deg,
     #172554 15%,
     #fef3c7 30%,
-    #fdba74 60%,
+    #c2a54e 60%,
     #854d0e 80%,
     #422006 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.bg-banfield {
+  background-color: #c2a54e;
+}
+.text-banfield {
+  color: #c2a54e;
 }

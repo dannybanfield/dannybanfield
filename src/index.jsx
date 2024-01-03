@@ -7,6 +7,7 @@ import '~/index.css';
 import { HomePage } from '~/pages/HomePage';
 import { InfoPage } from '~/pages/InfoPage';
 import { NewsPage } from '~/pages/NewsPage';
+import { ContactPage } from '~/pages/ContactPage';
 import { NotFoundPage } from '~/pages/404';
 
 render(() => (<>
@@ -15,6 +16,7 @@ render(() => (<>
       <Router>
         <Route path="/info" component={InfoPage} />
         <Route path="/news" component={NewsPage} />
+        <Route path="/contact" component={ContactPage} />
         <Route path="/" component={HomePage} />
         <Route path="*404" component={NotFoundPage} />
       </Router>

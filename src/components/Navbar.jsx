@@ -17,6 +17,9 @@ export function Navbar() {
         <A href="/news" class={`border-b-2 ${active("/news")}`}>
           NEWS + SOCIALS
         </A>
+        <A href="/contact" class={`border-b-2 ${active("/contact")}`}>
+          CONTACT
+        </A>
       </div>
     </div>
   );

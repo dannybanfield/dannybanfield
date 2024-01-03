@@ -3,20 +3,20 @@ import { BackToTop } from "~/components/BackToTop";
 import DanInBar from "~/assets/DanInBar.png";
 import Dan2 from "~/assets/Dan2.png";
 import StarSVG from "~/assets/star.svg";
-import ShipwrightPromo from "~/assets/Shipwright Promo 5.png";
+import ShipwrightPromo from "~/assets/03-shipwright.webp";
 
 const myEmailToken = "890b0197fdbaace202000e78f7eef3d1";  // "dev@appurist.com";
 const emailSubmitAction = `https://formsubmit.co/${myEmailToken}`;
 
 export function HomePage() {
   return (
-    <div class="flex flex-col min-h-dvh bg-gradient-to-b from-black to-black to-90%">
+    <div class="flex flex-col min-h-dvh bg-gradient-to-b from-black to-black to-90% pb-4">
       <div class="md:container md:mx-auto">
         <div class="flex flex-col normal-container justify-around text-center m-0 p-0 mb-8">
           <Navbar />
           <main>
             {/* ---------- TITLE AREA ---------- */}
-            <div className="flex flex-row justify-evenly w-full text-lg my-8">
+            <div class="flex flex-row justify-evenly w-full text-lg my-8">
               <a href="#party" target="_self" class="btn max-w-32 pb-1 border-b">The Kitchen Party</a>
               <a href="#shows" target="_self" class="btn max-w-32 pb-1 border-b">Upcoming Shows</a>
               <a href="#bio" target="_self" class="btn w-28 border-b self-end">Bio</a>
@@ -67,7 +67,7 @@ export function HomePage() {
                       </div>
                     </div>
                     <div class="flex flex-row my-5">
-                      <image src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Danny Banfield in the Bar" />
+                      <image src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
                     </div>
                   </div>
                 </div>
@@ -127,8 +127,8 @@ export function HomePage() {
                 </div>
               </div>
 
-              <div class="flex flex-col px-4 justify-center mx-auto">
-                <image src={Dan2} class="flex flex-col px-4 rounded-xl max-w-fit max-w-1/2" alt="Danny Performing" style="max-height: 640px;" />
+              <div class="flex flex-col justify-center mx-auto">
+                <image src={Dan2} class="px-4 rounded-xl max-w-fit" alt="Danny Performing" style="max-height: 640px;" />
               </div>
             </div>
             <BackToTop />
@@ -196,7 +196,6 @@ export function HomePage() {
               </div>
             </div>
             <BackToTop />
-
           </main>
         </div>
       </div>
