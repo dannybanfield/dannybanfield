@@ -5,6 +5,9 @@ import Dan2 from "~/assets/Dan2.png";
 import StarSVG from "~/assets/star.svg";
 import ShipwrightPromo from "~/assets/Shipwright Promo 5.png";
 
+const myEmailToken = "890b0197fdbaace202000e78f7eef3d1";  // "dev@appurist.com";
+const emailSubmitAction = `https://formsubmit.co/${myEmailToken}`;
+
 export function HomePage() {
   return (
     <div class="flex flex-col min-h-dvh bg-gradient-to-b from-black to-black to-90%">
@@ -137,7 +140,7 @@ export function HomePage() {
               <p class="text-white text-lg font-sans my-3">
                 If you're planning to attend one of my shows, let me know songs and/or artists you'd like to hear.... and why!!
               </p>
-              <form class="flex flex-col border border-solid border-1 p-5">
+              <form action={emailSubmitAction} method="POST" class="flex flex-col border border-solid border-1 p-5">
                 <label for="name" class="text-white text-lg font-sans">What is your first name?</label>
                 <input id="name" name="name" type="text" class="text-black text-lg font-sans w-full my-3" />
                 <label for="message" class="text-white text-lg font-sans mt-3">What song(s) or artist(s) would you like to hear...and why?*</label>
@@ -159,7 +162,7 @@ export function HomePage() {
                 Solo, duo, or band - I can do a show for every budget.
                 Please include details such as where, when, how many people, and times (all details subject to change).
               </p>
-              <form class="flex flex-col border border-solid border-1 p-5">
+              <form action={emailSubmitAction} method="POST" class="flex flex-col border border-solid border-1 p-5">
                 <div class="flex flex-row gap-4">
                   <div class="flex flex-col w-1/2">
                     <label for="firstname" class="text-white text-lg font-sans">First Name</label>
