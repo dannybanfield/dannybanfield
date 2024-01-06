@@ -1,4 +1,6 @@
-import { createSignal } from "solid-js";
+import { createSignal, createEffect } from "solid-js";
+import { useNavigate } from "@solidjs/router";
+
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
 import { SpotifyTrack } from "~/components/SpotifyTrack";
@@ -32,42 +34,41 @@ export function InfoPage(props) {
 
   function Thumbnail(props) {
     const slide = slides[props.slide];
+    console.log("Thumbnail", props.slide, slide);
     return (<>
-      <img class="bg-white my-2" onClick={() => openModal(props.slide)}
-        src={slide.src} alt={slide.alt} />
+      <button class="" onClick={() => openModal(props.slide)}>
+        <img class="bg-white my-2" src={slide.src} alt={slide.alt} />
+      </button>
     </>);
   }
 
-  function SlideContent(props) {
-    console.log("SlideShow", props.slide, current());
-    if (props.slide) setCurrent(props.slide);
-    let prev = current() - 1;
-    let next = current() + 1;
-    if (prev < 0) prev = slides.length - 1;
-    if (next >= slides.length) next = 0;
-    const slide = slides[current()];
-    return (<>
-      <div class="content-fit">
-        <h3 class="font-bold text-lg">{slide.alt}</h3>
-        <img src={slide.src} class="bg-white my-2" alt={slide.alt} />
-      </div>
-    </>);
+  const MODAL_ID = "slide_show";
+  function closeModal() {
+    const modal = document.getElementById(MODAL_ID);
+    modal.close();
+    setIsOpen(false);
   }
 
   function openModal(slide) {
+    console.log("openModal", slide);
     setCurrent(slide || 0);
-    if (!isOpen()) {
-      const modal = document.getElementById("slide_show");
-      setIsOpen(true);
-      // modal.addEventListener("click", (event) => {
-      //   if (event.target === modal) {
-      //     modal.close();
-      //   }
-      // });
-      // modal.style.display = "block";
-      modal.showModal();
+
+    const wasOpen = isOpen();
+    if (wasOpen) {
+      closeModal();
     }
+
+    const modal = document.getElementById(MODAL_ID);
+    setIsOpen(true);
+    modal.showModal();
   }
+
+  const navigate = useNavigate();
+  createEffect(() => {
+    console.log("navigating to slide", current());
+    navigate("#slide" + current(), { replace: true });
+  });
+
 
   return (<>
     <div class="flex flex-col min-h-dvh bg-gradient-to-b from-black to-black to-90% pb-4">
@@ -81,21 +82,19 @@ export function InfoPage(props) {
             An engaging entertainer bringing you classic songs from all genres. Songs to sing to, songs to dance to, songs you forgot you loved!
           </div>
 
-          <dialog id="slide_show" class="modal">
-            <div class="modal-box">
+          <dialog id={MODAL_ID} class="modal justify-center">
+            <div class="modal-box w-11/12 max-w-5xl m-0 p-0 justify-center overflow-hidden">
+              <SlideShow slides={slides} index={current()} />
               <form method="dialog">
                 <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-                <SlideShow />
               </form>
-            <h3 class="font-bold text-lg">Hello!</h3>
-            <p class="py-4">Press ESC key or click on ✕ button to close</p>
-          </div>
-        </dialog>
+            </div>
+          </dialog>
 
           <div class="flex flex-row px-4 md:px-0 md:container md:mx-auto text-white w-full justify-center md:text-xl mx-8 my-6 gap-4">
             <div class="flex flex-col basis-1/4">
-              <Thumbnail slide={0} />
-              <Thumbnail slide={1} />
+              <Thumbnail src={slides[0].src} slide={0} />
+              <Thumbnail src={slides[1].src} slide={1} />
             </div>
             <div class="flex flex-col basis-1/4">
               <Thumbnail slide={2} />
