@@ -17,7 +17,8 @@ export function HomePage() {
               <a href="#party" target="_self" class="btn max-w-32 pb-1 border-b">The Kitchen Party</a>
               <a href="#shows" target="_self" class="btn max-w-32 pb-1 border-b">Upcoming Shows</a>
               <a href="#bio" target="_self" class="btn w-28 border-b self-end">Bio</a>
-              <a href="#requests" target="_self" class="btn max-w-32 border-b">Song Request</a>
+              <a href="/contact/#requests" target="_self" class="btn max-w-32 border-b">Song Request</a>
+              <a href="/contact/#book" target="_self" class="btn max-w-32 border-b">Book Me!</a>
             </div>
             <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl my-6">
               <span class="gradient-text font-thin">DANNY BANFIELD</span>
