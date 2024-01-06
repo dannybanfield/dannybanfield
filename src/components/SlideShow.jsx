@@ -7,14 +7,14 @@ function Slide(props) {
   console.log("Slide", prev, props.index, next, slide.src);
   return (<>
     <div id={"slide" + props.index} class="carousel-item relative h-auto w-full overflow-hidden justify-center p-0">
-        <img src={slide.src} class="object-contain" alt={props.alt} />
+      <img src={slide.src} class="object-contain" alt={props.alt} />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href={"#slide" + prev} class="btn btn-circle border-yellow-100">❮</a>
         <a href={"#slide" + next} class="btn btn-circle  border-yellow-100">❯</a>
       </div>
-      <div class="absolute flex w-full justify-around mx-auto text-thin text-2xl text-amber-100 ">
+      {/* <div class="absolute flex w-full justify-around mx-auto text-thin text-2xl text-amber-100 ">
         {slide.alt}
-      </div>
+      </div> */}
     </div>
   </>);
 }

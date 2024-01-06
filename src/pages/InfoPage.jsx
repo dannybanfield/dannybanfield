@@ -8,24 +8,20 @@ import { SlideShow } from "~/components/SlideShow";
 
 import img01 from "~/assets/01-danguitar.webp";
 import img02 from "~/assets/02-danstage.webp";
-import img03 from "~/assets/03-shipwright2.webp";
+import img03 from "~/assets/03-shipwright830a.webp";
 import img04 from "~/assets/04-danchair.webp";
-import img05 from "~/assets/05-goldenyears.webp";
-import img06 from "~/assets/06-danpromo.webp";
-import img07 from "~/assets/07-danX6.webp";
-import img08 from "~/assets/08-danbar.webp";
-import img09 from "~/assets/09-band.webp";
+import img05 from "~/assets/05-danpromo.webp";
+import img06 from "~/assets/06-danbar.webp";
+import img07 from "~/assets/07-band.webp";
 
 const slides = [
   { src: img01, alt: "Danny performing" },
   { src: img02, alt: "Danny onstage" },
   { src: img03, alt: "Kitchen Party Promo" },
   { src: img04, alt: "Danny in a chair onstage" },
-  { src: img05, alt: "The Laughing Freemen perform Golden Years" },
-  { src: img06, alt: "Danny promo" },
-  { src: img07, alt: "Six-track Danny" },
-  { src: img08, alt: "Danny in a bar" },
-  { src: img09, alt: "The band onstage" },
+  { src: img05, alt: "Danny promo" },
+  { src: img06, alt: "Danny in a bar" },
+  { src: img07, alt: "The band onstage" },
 ];
 
 export function InfoPage(props) {
@@ -97,20 +93,33 @@ export function InfoPage(props) {
               <Thumbnail src={slides[1].src} slide={1} />
             </div>
             <div class="flex flex-col basis-1/4">
-              <Thumbnail slide={2} />
-              <Thumbnail slide={3} />
+              <Thumbnail src={slides[2].src} slide={2} />
+              <Thumbnail src={slides[3].src} slide={3} />
             </div>
             <div class="flex flex-col basis-1/4">
-              <Thumbnail slide={4} />
-              <Thumbnail slide={5} />
+              <Thumbnail src={slides[4].src} slide={4} />
             </div>
             <div class="flex flex-col basis-1/4">
-              <Thumbnail slide={6} />
-              <Thumbnail slide={7} />
-              <Thumbnail slide={8} />
+              <Thumbnail src={slides[5].src} slide={5} />
+              <Thumbnail src={slides[6].src} slide={6} />
             </div>
           </div>
 
+          <div class="gradient-text text-3xl font-sans my-3">
+            Videos
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/oOpE-3ogXsQ?si=b8StClpDQYfaGzXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="flex-col basis-1/2">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZkzpaRkbdQY?si=pDM5_S8ilMUwKvOt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="gradient-text text-3xl font-sans my-3">
+            Music
+          </div>
           <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
             <div class="flex-col basis-1/2">
               <p class="flex-row py-2">
