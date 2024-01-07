@@ -7,7 +7,7 @@ import ShipwrightPromo from "~/assets/03-shipwright830a.webp";
 
 export function HomePage() {
   return (
-    <div class="flex flex-col min-h-dvh bg-gradient-to-b from-black to-black to-90% pb-4">
+    <div class="flex flex-col min-h-dvh bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
       <div class="md:container md:mx-auto">
         <div class="flex flex-col normal-container justify-around text-center m-0 p-0 mb-8">
           <Navbar />
@@ -97,7 +97,7 @@ export function HomePage() {
             {/* ---------- UPCOMING SHOWS ---------- */}
             <div id="shows" class="divider gradient-text mx-8" />
             <div class="flex flex-col w-full justify-evenly text-center px-4">
-              <p class="text-3xl font-sansmy-3"><span class="gradient-text">Upcoming Shows</span></p>
+              <p class="text-3xl font-sansmy-3"><span class="">Upcoming Shows</span></p>
               <p class="text-white text-lg font-sans my-3">Shipwright Brewing Company, December 22, 2023, 8:30pm</p>
               <p class="text-white text-lg font-sans my-3">
                 Shipwright Brewing Company, January 5, 2024, 8:30pm
