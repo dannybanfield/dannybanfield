@@ -3,7 +3,7 @@ import { BackToTop } from "~/components/BackToTop";
 import DanInBar from "~/assets/DanInBar.png";
 import Dan2 from "~/assets/Dan2.png";
 import StarSVG from "~/assets/star.svg";
-import ShipwrightPromo from "~/assets/03-shipwright830a.webp";
+import ShipwrightPromo from "~/assets/shipwright830a.png";
 
 export function HomePage() {
   return (
