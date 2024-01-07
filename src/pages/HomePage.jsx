@@ -34,7 +34,7 @@ export function HomePage() {
                   An engaging entertainer bringing you songs you forgot you loved, songs you've always loved,
                   and songs you will grow to love. Requests and musical guests welcome!!
                 </div>
-                <a href="#book" target="_self" ><button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button></a>
+                <a href="/contact/#book" target="_self" ><button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button></a>
               </div>
               <div class="flex-col">
                 <image src={DanInBar} class="rounded-xl" alt="Danny Banfield in the Bar" />
@@ -104,7 +104,7 @@ export function HomePage() {
               <p class="text-white text-md font-sans mb-3">Friday Jan 26, 2024 - 7pm</p>
               <p class="text-white text-lg font-sans mt-3">Firkenstein Brewery - Bridgewater, NS</p>
               <p class="text-white text-lg font-sans">
-                OPENING for 
+                OPENING for
                 <a class="link hover:text-yellow-500" href="https://www.campbellandjohnstonmusic.com/" target="_blank">
                   Campbell & Johnston
                 </a>
