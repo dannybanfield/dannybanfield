@@ -48,7 +48,7 @@ export function HomePage() {
 
                 <div class="flex flex-col lg:flex-row">
                   <div class="flex flex-col">
-                    <div class="gradient-text text-3xl font-sans my-3">
+                    <div class="gradient-text text-3xl font-sans  my-3">
                       The Kitchen Party
                     </div>
 
@@ -95,16 +95,21 @@ export function HomePage() {
             <BackToTop />
 
             {/* ---------- UPCOMING SHOWS ---------- */}
-            <div id="shows" class="divider gradient-text mx-8" />
+            <div id="shows" class="divider border-white mx-8" />
             <div class="flex flex-col w-full justify-evenly text-center px-4">
-              <p class="text-3xl font-sansmy-3"><span class="">Upcoming Shows</span></p>
-              <p class="text-white text-lg font-sans my-3">Shipwright Brewing Company, December 22, 2023, 8:30pm</p>
-              <p class="text-white text-lg font-sans my-3">
-                Shipwright Brewing Company, January 5, 2024, 8:30pm
+              <p class="text-3xl font-sansmy-3"><span class="gradient-text">Upcoming Shows</span></p>
+              <p class="text-white text-lg font-sans mt-3">Kitchen Party - Shipwright Taproom - Lunenburg, NS</p>
+              <p class="text-white text-md font-sans mb-3">Every 2nd Friday starting Jan 5, 2024 - 8:30pm</p>
+              <p class="text-white text-lg font-sans mt-3">Deerfield Pub - Hammonds Plains, NS</p>
+              <p class="text-white text-md font-sans mb-3">Friday Jan 26, 2024 - 7pm</p>
+              <p class="text-white text-lg font-sans mt-3">Firkenstein Brewery - Bridgewater, NS</p>
+              <p class="text-white text-lg font-sans">
+                OPENING for 
+                <a class="link hover:text-yellow-500" href="https://www.campbellandjohnstonmusic.com/" target="_blank">
+                  Campbell & Johnston
+                </a>
               </p>
-              <p class="text-white text-lg font-sans my-3">
-                and EVERY 2ND FRIDAY THEREAFTER!!
-              </p>
+              <p class="text-white text-md font-sans mb-3">$20 tickets avail at Firk, or call 902-530-5400</p>
             </div>
             <BackToTop />
 
