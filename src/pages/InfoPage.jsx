@@ -6,13 +6,13 @@ import { BackToTop } from "~/components/BackToTop";
 import { SpotifyTrack } from "~/components/SpotifyTrack";
 import { SlideShow } from "~/components/SlideShow";
 
-import img01 from "~/assets/01-danguitar.webp";
-import img02 from "~/assets/02-danstage.webp";
-import img03 from "~/assets/03-shipwright830a.webp";
-import img04 from "~/assets/04-danchair.webp";
-import img05 from "~/assets/05-danpromo.webp";
-import img06 from "~/assets/06-danbar.webp";
-import img07 from "~/assets/07-band.webp";
+import img01 from "~/assets/portfolio/01-danguitar.webp";
+import img02 from "~/assets/portfolio/02-danstage.webp";
+import img03 from "~/assets/portfolio/03-shipwright830a.webp";
+import img04 from "~/assets/portfolio/04-danchair.webp";
+import img05 from "~/assets/portfolio/05-danpromo.webp";
+import img06 from "~/assets/portfolio/06-danbar.webp";
+import img07 from "~/assets/portfolio/07-band.webp";
 
 const slides = [
   { src: img01, alt: "Danny performing" },

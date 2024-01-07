@@ -1,9 +1,9 @@
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
-import SocialFB from "~/assets/DB FB.webp";
-import SocialIG from "~/assets/DB IG.webp";
-import SocialYT from "~/assets/DB YT.webp";
-import SocialSC from "~/assets/DB SC.webp";
+import SocialFB from "~/assets/news/DB FB.webp";
+import SocialIG from "~/assets/news/DB IG.webp";
+import SocialYT from "~/assets/news/DB YT.webp";
+import SocialSC from "~/assets/news/DB SC.webp";
 
 export function NewsPage(props) {
   return (
