@@ -75,7 +75,7 @@ export function HomePage() {
                 Danny Banfield (Originals) - 10CC - Beatles - Blue Rodeo - Garth Brooks - Neil Young - Van Morrison - Jason Mraz - Looking Glass
                 - Neil Diamond - Eagles - Trooper - James Taylor - Jimmy Buffett - Willie Nelson - Band - Lighthouse - Led Zeppelin - Monkees
                 - Muppets - Michael Jackson - Stone Temple Pilots - Temptations - Nancy Sinatra - Warren Zevon - Steve Miller - Who - Ron Hynes
-                - Prince – Hank Williams - Harry Chapin - Gordon Lightfoot - Cat Stevens - Joe Jackson - Tragically Hip - John Denver - Stampeders
+                - Prince - Hank Williams - Harry Chapin - Gordon Lightfoot - Cat Stevens - Joe Jackson - Tragically Hip - John Denver - Stampeders
                 - U2 - Bruce Springsteen - Judy Garland - Kim Mitchell - Steelers Wheel - Oasis - Louis Armstrong - Billy Joel - The Police - Incubus
                 - Johnny Cash - Old Crow Medicine Show - Partridge Family - Ramones - Seals & Crofts - Dr. Hook - Five Man Electrical Band - Phil Collins
                 - Guns N' Roses - Alistair MacGillivray -  George Michael - America - Metallica - Steppenwolf - Lovin Spoonful - Glen Campbell
@@ -83,7 +83,7 @@ export function HomePage() {
                 - Duran Duran - Tom Jones - The Cure - Journey - Kenny Rogers - Lynyrd Skynyrd - Doobie Brothers - John Mellencamp - Kool and the Gang
                 - Tina Turner - Queen - Bryan Adams - Hall & Oates - Al Stewart - Alice Cooper - Alice in Chains - Pat Benatar - Valdy - Billy Idol
                 - Peter Gabriel - Crowbar - Crowded House - INXS - Tom Petty & the Heartbreakers - Eurythmics - Black Crowes - Bob Marley - Boomtown Rats
-                - Bruce Cockburn - BTO - Cake - The Cars – Aerosmith - ZZ Top - The Rolling Stones - Heart - David Bowie - Elton John - Rod Stewart
+                - Bruce Cockburn - BTO - Cake - The Cars - Aerosmith - ZZ Top - The Rolling Stones - Heart - David Bowie - Elton John - Rod Stewart
                 - Stevie Wonder - Toto - Bob Seger - Fleetwood Mac - Dobie Gray - Deep Purple - Paul McCartney - Don Henley - Paul Simon - Tracy Chapman
                 - Culture Club - Chicago - Men at Work - Pink Floyd - Robert Palmer - Kenny Loggins - Tears for Fears - B-52's - Boston - Joan Jett
                 - Stevie Nicks - Sting - The Pretenders - The Clash - Squeeze - Styx - The Human League - Violent Femmes - Elvis Costello - Eddie Money
