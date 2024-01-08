@@ -106,7 +106,7 @@ export function HomePage() {
               <p class="text-white text-lg font-sans">
                 OPENING for
                 <a class="link hover:text-yellow-500" href="https://www.campbellandjohnstonmusic.com/" target="_blank">
-                  Campbell & Johnston
+                  <span class="mx-1">Campbell & Johnston</span>
                 </a>
               </p>
               <p class="text-white text-md font-sans mb-3">$20 tickets avail at Firk, or call 902-530-5400</p>
