@@ -100,11 +100,13 @@ export function HomePage() {
               <p class="text-3xl font-sansmy-3"><span class="gradient-text">Upcoming Shows</span></p>
               <p class="text-white text-lg font-sans mt-3">Kitchen Party - Shipwright Taproom - Lunenburg, NS</p>
               <p class="text-white text-md font-sans mb-3">Every 2nd Friday starting Jan 5, 2024 - 8:30pm</p>
+              <p class="text-white text-lg font-sans mt-3">Betty's at the Kitch - Mahone Bay, NS</p>
+              <p class="text-white text-md font-sans mb-3">1st Saturday of every month - 7pm</p>
               <p class="text-white text-lg font-sans mt-3">Deerfield Pub - Hammonds Plains, NS</p>
               <p class="text-white text-md font-sans mb-3">Friday Jan 26, 2024 - 7pm</p>
               <p class="text-white text-lg font-sans mt-3">Firkenstein Brewery - Bridgewater, NS</p>
               <p class="text-white text-lg font-sans">
-                OPENING for 
+                Sat Jan 27 - OPENING for 
                 <a class="link hover:text-yellow-500" href="https://www.campbellandjohnstonmusic.com/" target="_blank">
                   Campbell & Johnston
                 </a>
