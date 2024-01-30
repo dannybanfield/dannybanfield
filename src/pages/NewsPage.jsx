@@ -1,6 +1,6 @@
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
-import SocialFB from "~/assets/news/FBCurrent.jpg";
+import SocialFB from "~/assets/news/FBCurrent.png";
 import SocialIG from "~/assets/news/DB IG.webp";
 import SocialYT from "~/assets/news/DB YT.webp";
 import SocialSC from "~/assets/news/DB SC.webp";
