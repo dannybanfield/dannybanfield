@@ -11,10 +11,10 @@ export function Navbar() {
         <A href="/" class={`border-b-2 ${active("/")}`}>
           HOME
         </A>
-        <A href="/info" class={`border-b-2 ${active("/info")}`}>
+        <A href="/media" class={`border-b-2 ${active("/media")}`}>
           MEDIA
         </A>
-       
+
         <A href="/contact" class={`border-b-2 ${active("/contact")}`}>
           CONTACT
         </A>

@@ -13,7 +13,7 @@ render(() => (<>
   <div class="scroll-smooth">
     <MetaProvider>
       <Router>
-        <Route path="/info" component={MediaPage} />
+        <Route path="/media" component={MediaPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/" component={HomePage} />
         <Route path="*404" component={NotFoundPage} />
