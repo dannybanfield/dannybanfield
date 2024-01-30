@@ -12,11 +12,9 @@ export function Navbar() {
           HOME
         </A>
         <A href="/info" class={`border-b-2 ${active("/info")}`}>
-          PORTFOLIO
+          MEDIA
         </A>
-        <A href="/news" class={`border-b-2 ${active("/news")}`}>
-          NEWS + SOCIALS
-        </A>
+       
         <A href="/contact" class={`border-b-2 ${active("/contact")}`}>
           CONTACT
         </A>
