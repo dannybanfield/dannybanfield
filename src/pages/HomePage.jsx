@@ -34,7 +34,7 @@ export function HomePage() {
                   An engaging entertainer bringing you songs you forgot you loved, songs you've always loved,
                   and songs you will grow to love. Requests and musical guests welcome!!
                 </div>
-                <a href="#book" target="_self" ><button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button></a>
+                <a href="/contact/#book" target="_self" ><button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button></a>
               </div>
               <div class="flex-col">
                 <image src={DanInBar} class="rounded-xl" alt="Danny Banfield in the Bar" />
@@ -108,7 +108,7 @@ export function HomePage() {
               <p class="text-white text-lg font-sans">
                 Sat Jan 27 - OPENING for 
                 <a class="link hover:text-yellow-500" href="https://www.campbellandjohnstonmusic.com/" target="_blank">
-                  Campbell & Johnston
+                  <span class="mx-1">Campbell & Johnston</span>
                 </a>
               </p>
               <p class="text-white text-md font-sans mb-3">$20 tickets avail at Firk, or call 902-530-5400</p>
