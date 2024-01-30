@@ -89,7 +89,7 @@ export function HomePage() {
                 - Stevie Nicks - Sting - The Pretenders - The Clash - Squeeze - Styx - The Human League - Violent Femmes - Elvis Costello - Eddie Money
                 - Loverboy - Crosby Stills Nash (& Young) - Aretha Franklin  - KISS - Marvin Gaye - Spandau Ballet
                 - Bonnie Raitt - Eric Clapton - Corey Hart - John Lennon - Red Hot Chili Peppers - Rick Springfield - Tom Waits - Chris De Burgh
-                - AND MANY MORE!!!
+                - and WHATEVER OTHER SONGS WE COME UP WITH IN THE SONVERSATION!!!
               </div>
             </div>
             <BackToTop />
