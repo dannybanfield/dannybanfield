@@ -75,13 +75,15 @@ export function MediaPage(props) {
       <div class="flex flex-col normal-container justify-around text-center m-0 p-0">
         <Navbar />
         <main class="px-5">
-        <div class="flex flex-row justify-evenly w-full text-lg my-8">
+          <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl my-6">
+            <span class="gradient-text font-thin">MEDIA</span>
+          </div>
+          <div class="flex flex-row w-full text-lg my-8">
+            <div class="flex flex-row w-full justify-center gap-12">
               <a href="#music" target="_self" class="btn max-w-32 pb-1 border-b">Music</a>
               <a href="#photos" target="_self" class="btn max-w-32 pb-1 border-b">Photos</a>
               <a href="#videos" target="_self" class="btn w-28 border-b self-end">Videos</a>
             </div>
-          <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl my-6">
-            <span class="gradient-text font-thin">MEDIA</span>
           </div>
           <div class="flex flex-row text-white w-full justify-center md:text-xl my-6">
             An engaging entertainer bringing you classic songs from all genres. Songs to sing to, songs to dance to, songs you forgot you loved!
@@ -96,7 +98,7 @@ export function MediaPage(props) {
             </div>
           </dialog>
 
-          <div class="flex flex-row px-4 md:px-0 md:container md:mx-auto text-white w-full justify-center md:text-xl mx-8 my-6 gap-4">
+          <div id="photos" class="flex flex-row px-4 md:px-0 md:container md:mx-auto text-white w-full justify-center md:text-xl mx-8 my-6 gap-4">
             <div class="flex flex-col basis-1/4">
               <Thumbnail src={slides[0].src} slide={0} />
               <Thumbnail src={slides[1].src} slide={1} />
