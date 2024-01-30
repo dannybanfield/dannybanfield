@@ -71,7 +71,7 @@ export function HomePage() {
                 </div>
               </div>
 
-              <div class="flex flex-row lg:flex-col md:basis-3/5 px-4 xl:mt-48 text-left text-md">
+              <div class="flex flex-row lg:flex-col md:basis-3/5 px-4 xl:mt-48 text-left text-sm">
                 Danny Banfield (Originals) - 10CC - Beatles - Blue Rodeo - Garth Brooks - Neil Young - Van Morrison - Jason Mraz - Looking Glass
                 - Neil Diamond - Eagles - Trooper - James Taylor - Jimmy Buffett - Willie Nelson - Band - Lighthouse - Led Zeppelin - Monkees
                 - Muppets - Michael Jackson - Stone Temple Pilots - Temptations - Nancy Sinatra - Warren Zevon - Steve Miller - Who - Ron Hynes
@@ -87,7 +87,7 @@ export function HomePage() {
                 - Stevie Wonder - Toto - Bob Seger - Fleetwood Mac - Dobie Gray - Deep Purple - Paul McCartney - Don Henley - Paul Simon - Tracy Chapman
                 - Culture Club - Chicago - Men at Work - Pink Floyd - Robert Palmer - Kenny Loggins - Tears for Fears - B-52's - Boston - Joan Jett
                 - Stevie Nicks - Sting - The Pretenders - The Clash - Squeeze - Styx - The Human League - Violent Femmes - Elvis Costello - Eddie Money
-                - Loverboy - Crosby Stills Nash (& Young) - Aretha Franklin - UB 40 - Simple Minds - Earth Wind & Fire - KISS - Marvin Gaye - Spandau Ballet
+                - Loverboy - Crosby Stills Nash (& Young) - Aretha Franklin  - KISS - Marvin Gaye - Spandau Ballet
                 - Bonnie Raitt - Eric Clapton - Corey Hart - John Lennon - Red Hot Chili Peppers - Rick Springfield - Tom Waits - Chris De Burgh
                 - AND MANY MORE!!!
               </div>
@@ -98,20 +98,40 @@ export function HomePage() {
             <div id="shows" class="divider border-white mx-8" />
             <div class="flex flex-col w-full justify-evenly text-center px-4">
               <p class="text-3xl font-sansmy-3"><span class="gradient-text">Upcoming Shows</span></p>
-              <p class="text-white text-lg font-sans mt-3">Kitchen Party - Shipwright Taproom - Lunenburg, NS</p>
-              <p class="text-white text-md font-sans mb-3">Every 2nd Friday starting Jan 5, 2024 - 8:30pm</p>
-              <p class="text-white text-lg font-sans mt-3">Betty's at the Kitch - Mahone Bay, NS</p>
-              <p class="text-white text-md font-sans mb-3">1st Saturday of every month - 7pm</p>
-              <p class="text-white text-lg font-sans mt-3">Deerfield Pub - Hammonds Plains, NS</p>
-              <p class="text-white text-md font-sans mb-3">Friday Jan 26, 2024 - 7pm</p>
-              <p class="text-white text-lg font-sans mt-3">Firkenstein Brewery - Bridgewater, NS</p>
-              <p class="text-white text-lg font-sans">
-                Sat Jan 27 - OPENING for 
-                <a class="link hover:text-yellow-500" href="https://www.campbellandjohnstonmusic.com/" target="_blank">
-                  <span class="mx-1">Campbell & Johnston</span>
-                </a>
-              </p>
-              <p class="text-white text-md font-sans mb-3">$20 tickets avail at Firk, or call 902-530-5400</p>
+              <p class="text-white text-lg font-sans mt-3">Fri Feb 2, 16; Mar 1, 15, 29 2024 - KITCHEN PARTY -
+              <a class="link hover:text-yellow-500" href="https://www.shipwrightbrewing.com/" target="_blank">
+                  <span class="mx-1">Shipwright Taproom</span>
+                </a> - Lunenburg, NS</p>
+              <p class="text-white text-md font-sans mb-3">Every 2nd Friday indefinitely - 8:30-11:30pm</p>
+              <p class="text-white text-lg font-sans mt-3">Sat Feb 3, Mar 2, Apr 6, May 4 2024 - SONGVERSATION - 
+              <a class="link hover:text-yellow-500" href="https://www.kitchinn.com/bettys.html/" target="_blank">
+                  <span class="mx-1">Betty's at The Kitch</span>
+                </a> - Mahone Bay, NS</p>
+              <p class="text-white text-md font-sans mb-3">1st Saturday of every month - 7-11pm</p>
+              <p class="text-white text-lg font-sans mt-3">Fri Feb 23, 2024 - BANFIELD & BASTIAN - 
+              <a class="link hover:text-yellow-500" href="https://www.facebook.com/stmargarets.legion/" target="_blank">
+                  <span class="mx-1">Seabright Legion </span>
+                </a>- Seabright, NS - 8-11pm</p>
+              <p class="text-white text-md font-sans mb-3">$10 Cover - 19+ Event</p>
+              <p class="text-white text-lg font-sans mt-3">Fri Mar 8, 2024 - 
+              <a class="link hover:text-yellow-500" href="https://www.sackawa.ca/" target="_blank">
+                  <span class="mx-1">Sackawa Canoe Club</span>
+                </a> - Lower Sackville, NS - 7-10pm</p>
+              <p class="text-white text-lg font-sans mt-3">Sat Mar 16, 2024 - 
+              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
+                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
+                <p class="text-white text-lg font-sans mt-3">Fri May 31, 2024 - 
+              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
+                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
+                <p class="text-white text-lg font-sans mt-3">Sat Aug 17, 2024 - 
+              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
+                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
+                <p class="text-white text-lg font-sans mt-3">Sat Oct 5, 2024 - 
+              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
+                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
+                <p class="text-white text-lg font-sans mt-3">Sat Dec 14, 2024 - 
+              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
+                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
             </div>
             <BackToTop />
 
