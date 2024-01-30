@@ -14,6 +14,7 @@ import img05 from "~/assets/portfolio/05-danpromo.webp";
 import img06 from "~/assets/portfolio/06-danbar.webp";
 import img07 from "~/assets/portfolio/07-band.webp";
 import img08 from "~/assets/portfolio/08-Firks.jpg";
+import img09 from "~/assets/portfolio/09-PromoPic.jpg";
 
 const slides = [
   { src: img01, alt: "Danny performing" },
@@ -24,6 +25,7 @@ const slides = [
   { src: img06, alt: "Danny in a bar" },
   { src: img07, alt: "The band onstage" },
   { src: img08, alt: "At Firkensteins Brewery" },
+  { src: img09, alt: "Promo Pic" },
 ];
 
 export function MediaPage(props) {
@@ -102,6 +104,7 @@ export function MediaPage(props) {
             <div class="flex flex-col basis-1/4">
               <Thumbnail src={slides[2].src} slide={2} />
               <Thumbnail src={slides[3].src} slide={3} />
+              <Thumbnail src={slides[8].src} slide={8} />
             </div>
             <div class="flex flex-col basis-1/4">
               <Thumbnail src={slides[4].src} slide={4} />
