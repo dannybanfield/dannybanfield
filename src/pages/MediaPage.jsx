@@ -134,7 +134,7 @@ export function MediaPage(props) {
           <div id="music" class="gradient-text text-3xl font-sans my-3">
             Music
           </div>
-          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
+          {/* <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
             <div class="flex-col basis-1/2">
               <p class="flex-row py-2">
                 My 1st single release is now available on all streaming platforms!
@@ -155,7 +155,7 @@ export function MediaPage(props) {
             <div class="flex-col basis-1/2">
               <SpotifyTrack track="4EXgkS7mmjZ0pFaEIBso8i" title="Coal Miner's Symphony on Spotify" />
             </div>
-          </div>
+          </div> */}
           <BackToTop />
         </main>
       </div>
