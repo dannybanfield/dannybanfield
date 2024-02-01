@@ -1,6 +1,6 @@
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
-import DanInBar from "~/assets/DanInBar.png";
+import DanInBar from "~/assets/DanBar.png";
 import Dan2 from "~/assets/Dan2.png";
 import StarSVG from "~/assets/star.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";

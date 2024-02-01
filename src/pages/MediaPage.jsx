@@ -6,7 +6,7 @@ import { BackToTop } from "~/components/BackToTop";
 import { SpotifyTrack } from "~/components/SpotifyTrack";
 import { SlideShow } from "~/components/SlideShow";
 
-import img01 from "~/assets/portfolio/01-danguitar.webp";
+import img01 from "~/assets/portfolio/01-PromoPic.jpg";
 import img02 from "~/assets/portfolio/02-danstage.webp";
 import img03 from "~/assets/portfolio/03-shipwright830a.webp";
 import img04 from "~/assets/portfolio/04-danchair.webp";
@@ -14,10 +14,10 @@ import img05 from "~/assets/portfolio/05-danpromo.webp";
 import img06 from "~/assets/portfolio/06-danbar.webp";
 import img07 from "~/assets/portfolio/07-band.webp";
 import img08 from "~/assets/portfolio/08-Firks.jpg";
-import img09 from "~/assets/portfolio/09-PromoPic.jpg";
+import img09 from "~/assets/portfolio/09-danguitar.webp";
 
 const slides = [
-  { src: img01, alt: "Danny performing" },
+  { src: img01, alt: "Danny Promo Pic" },
   { src: img02, alt: "Danny onstage" },
   { src: img03, alt: "Kitchen Party Promo" },
   { src: img04, alt: "Danny in a chair onstage" },
@@ -25,7 +25,7 @@ const slides = [
   { src: img06, alt: "Danny in a bar" },
   { src: img07, alt: "The band onstage" },
   { src: img08, alt: "At Firkensteins Brewery" },
-  { src: img09, alt: "Promo Pic" },
+  { src: img09, alt: "Dan BW" },
 ];
 
 export function MediaPage(props) {
