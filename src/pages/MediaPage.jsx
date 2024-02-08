@@ -97,7 +97,49 @@ export function MediaPage(props) {
               </form>
             </div>
           </dialog>
-
+          <div id="music" class="gradient-text text-3xl font-sans my-3">
+            Music
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
+                My 1st single release is now available on all streaming platforms!
+              </p>
+              <p class="flex-row py-2">
+              For those who know me, you've been singing along to this song for decades - the Coal Miner's Symphony - a piece I wrote while going to school in Ontario, and missing home so much. This is a new recording, featuring Rob Willis on electric guitar.
+              </p>
+              <p class="flex-row py-2">
+                That's right; Spotify, Google, Apple, Amazon, Pandora....you can listen to it on all of the above, and more!
+              </p>
+              <p class="flex-row py-2">
+                Please share at will, and add to your playlists!!
+              </p>
+              <p class="flex-row py-2">
+                Enjoy!
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+              <SpotifyTrack track="7l8y00YBfJv7i3SUIR4jqA" title="Coal Miner's Symphony on Spotify" />
+            </div>
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
+                Of Christmas was written in 2022 by Lana Keddy and myself, and feature's Lana's golden voice. We had a blast producing this!
+              </p>
+              <p class="flex-row py-2">
+              For those who know us, you'll know how much we love you, and how this song comes from our hearts.
+              </p>
+              <p class="flex-row py-2">
+                It's available on all streaming platforms as well. Please feel free to add to your holiday playlist, and share with your friends.
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+              <SpotifyTrack track="3hf5ytEhNG5C2bqmgOkSAf" title="Of Christmas on Spotify" />
+            </div>
+          </div>
+          
+          <BackToTop />
           <div id="photos" class="flex flex-row px-4 md:px-0 md:container md:mx-auto text-white w-full justify-center md:text-xl mx-8 my-6 gap-4">
             <div class="flex flex-col basis-1/4">
               <Thumbnail src={slides[0].src} slide={0} />
@@ -127,33 +169,6 @@ export function MediaPage(props) {
             </div>
             <div class="flex-col basis-1/2">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/ZkzpaRkbdQY?si=pDM5_S8ilMUwKvOt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-          </div>
-          <BackToTop />
-
-          <div id="music" class="gradient-text text-3xl font-sans my-3">
-            Music
-          </div>
-          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
-            <div class="flex-col basis-1/2">
-              <p class="flex-row py-2">
-                My 1st single release is now available on all streaming platforms!
-              </p>
-              <p class="flex-row py-2">
-              For those who know me, you've been singing along to this song for decades - the Coal Miner's Symphony - a piece I wrote while going to school in Ontario, and missing home so much. This is a new recording, featuring Rob Willis on electric guitar.
-              </p>
-              <p class="flex-row py-2">
-                That's right; Spotify, Google, Apple, Amazon, Pandora....you can listen to it on all of the above, and more!
-              </p>
-              <p class="flex-row py-2">
-                Please share at will, and add to your playlists!!
-              </p>
-              <p class="flex-row py-2">
-                Enjoy!
-              </p>
-            </div>
-            <div class="flex-col basis-1/2">
-              <SpotifyTrack track="7l8y00YBfJv7i3SUIR4jqA" title="Coal Miner's Symphony on Spotify" />
             </div>
           </div>
           <BackToTop />
