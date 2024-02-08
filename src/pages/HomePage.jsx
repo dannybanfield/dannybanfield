@@ -21,9 +21,8 @@ export function HomePage() {
               <a href="/contact/#book" target="_self" class="btn max-w-24 border-b">Book Me!</a>
             </div>
             <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl my-6">
-              <span class="gradient-text font-thin">DANNY BANFIELD</span>
+              <span class="gradient-text font-medium">DANNY BANFIELD</span>
             </div>
-
             {/* ---------- CLASSIC SONGS INTRO ---------- */}
             <div class="flex flex-row text-amber-100 w-full justify-evenly px-8 text-center gap-4">
               <div class="flex-col">
@@ -98,12 +97,12 @@ export function HomePage() {
             <div id="shows" class="divider border-white mx-8" />
             <div class="flex flex-col w-full justify-evenly text-center px-4">
               <p class="text-3xl font-sansmy-3"><span class="gradient-text">Upcoming Shows</span></p>
-              <p class="text-white text-lg font-sans mt-3">Fri Feb 2, 16; Mar 1, 15, 29 2024 - KITCHEN PARTY -
+              <p class="text-white text-lg font-sans mt-3">Fri Feb 16; Mar 1, 15, 29 2024 - KITCHEN PARTY -
               <a class="link hover:text-yellow-500" href="https://www.shipwrightbrewing.com/" target="_blank">
                   <span class="mx-1">Shipwright Taproom</span>
                 </a> - Lunenburg, NS</p>
               <p class="text-white text-md font-sans mb-3">Every 2nd Friday indefinitely - 8:30-11:30pm</p>
-              <p class="text-white text-lg font-sans mt-3">Sat Feb 3, Mar 2, Apr 6, May 4 2024 - SONGVERSATION - 
+              <p class="text-white text-lg font-sans mt-3">Sat Mar 2, Apr 6, May 4 2024 - SONGVERSATION - 
               <a class="link hover:text-yellow-500" href="https://www.kitchinn.com/bettys.html/" target="_blank">
                   <span class="mx-1">Betty's at The Kitch</span>
                 </a> - Mahone Bay, NS</p>

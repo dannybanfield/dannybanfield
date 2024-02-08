@@ -164,11 +164,14 @@ export function MediaPage(props) {
             Videos
           </div>
           <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
-            <div class="flex-col basis-1/2">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/oOpE-3ogXsQ?si=b8StClpDQYfaGzXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="flex-col basis-1/3">
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/dBGMgJocSgU?si=eOdxCD4CzPu0vZ5K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="flex-col basis-1/2">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZkzpaRkbdQY?si=pDM5_S8ilMUwKvOt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="flex-col basis-1/3">
+              <iframe width="400" height="225" src="https://www.youtube.com/embed/oOpE-3ogXsQ?si=b8StClpDQYfaGzXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="flex-col basis-1/3">
+              <iframe width="400" height="225" src="https://www.youtube.com/embed/ZkzpaRkbdQY?si=pDM5_S8ilMUwKvOt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
           <BackToTop />
