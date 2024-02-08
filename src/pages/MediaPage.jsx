@@ -140,6 +140,9 @@ export function MediaPage(props) {
           </div>
           
           <BackToTop />
+          <div id="photos" class="gradient-text text-3xl font-sans my-3">
+            Photos
+          </div>
           <div id="photos" class="flex flex-row px-4 md:px-0 md:container md:mx-auto text-white w-full justify-center md:text-xl mx-8 my-6 gap-4">
             <div class="flex flex-col basis-1/4">
               <Thumbnail src={slides[0].src} slide={0} />
