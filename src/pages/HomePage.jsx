@@ -35,7 +35,7 @@ export function HomePage() {
                   <span class="gradient-text">Classic Songs You Forgot You Loved</span>
                 </div>
                 <div class="text-white text-lg font-sans max-w-96 my-3">
-                  An engaging entertainer with a golden voice, bringing you songs you forgot you loved, songs you've always loved,
+                  An engaging entertainer with a golden voice, and a HUGE repertoire of songs you forgot you loved, songs you've always loved,
                   and songs you will grow to love...originals and covers. Requests and musical guests welcome!!
                 </div>
                 <a href="/contact/#book" target="_self" ><button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button></a>
@@ -59,7 +59,7 @@ export function HomePage() {
                 </a>
               </p>
               <p class="bg-banfield text-black text-sm rounded-xl p-2 self-center max-w-32 xl:max-w-fit">
-                <a href="https://www.facebook.com/dannybanfieldmusic" class="link">
+                <a href="https://soundcloud.com/banfieldd" class="link">
                   <img src={SoundCloud} height="20" width="20" alt="SoundCloud" class="inline"></img>
                   <span class="ps-2 font-bold no-underline hidden xl:inline">Danny on SoundCloud</span>
                 </a>
