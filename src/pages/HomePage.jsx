@@ -94,7 +94,8 @@ export function HomePage() {
             <BackToTop />
 
             {/* ---------- UPCOMING SHOWS ---------- */}
-            <div id="shows" class="divider border-white mx-8" />
+            <div id="shows" class="elfsight-app-d96db166-c337-4517-b382-6f4f7f33ac5b" data-elfsight-app-lazy></div>
+            {/* <div id="shows" class="divider border-white mx-8" />
             <div class="flex flex-col w-full justify-evenly text-center px-4">
               <p class="text-3xl font-sansmy-3"><span class="gradient-text">Upcoming Shows</span></p>
               <p class="text-white text-lg font-sans mt-3">Fri Feb 16; Mar 1, 15, 29 2024 - KITCHEN PARTY -
@@ -131,7 +132,7 @@ export function HomePage() {
                 <p class="text-white text-lg font-sans mt-3">Sat Dec 14, 2024 - 
               <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
                   <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
-            </div>
+  </div> */}
             <BackToTop />
 
             {/* ---------- BIO - ABOUT DANNY ---------- */}
