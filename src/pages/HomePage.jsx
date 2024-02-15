@@ -31,7 +31,7 @@ export function HomePage() {
                 </div>
                 <div class="text-white text-lg font-sans max-w-96 my-3">
                   An engaging entertainer with a golden voice, bringing you songs you forgot you loved, songs you've always loved,
-                  and songs you will grow to love...including originals. Requests and musical guests welcome!!
+                  and songs you will grow to love...originals and covers. Requests and musical guests welcome!!
                 </div>
                 <a href="/contact/#book" target="_self" ><button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button></a>
               </div>
