@@ -38,7 +38,7 @@ export function ContactPage(props) {
                 </a>
               </p>
               <p class="bg-banfield text-black text-sm rounded-xl p-2 self-center max-w-32 xl:max-w-fit">
-                <a href="https://www.facebook.com/dannybanfieldmusic" class="link">
+                <a href="https://www.facebook.com/danny.banfield/" class="link">
                   <img src={Facebook} height="24" width="24" alt="Facebook" class="inline"></img>
                   <span class="ps-2 font-bold no-underline hidden xl:inline">Danny on Facebook</span>
                 </a>
@@ -50,7 +50,7 @@ export function ContactPage(props) {
                 </a>
               </p>
               <p class="bg-banfield text-black text-sm rounded-xl p-2 self-center max-w-32 xl:max-w-fit">
-                <a href="https://www.facebook.com/dannybanfieldmusic" class="link">
+                <a href="https://soundcloud.com/banfieldd" class="link">
                   <img src={SoundCloud} height="24" width="24" alt="SoundCloud" class="inline"></img>
                   <span class="ps-2 font-bold no-underline hidden xl:inline">Danny on SoundCloud</span>
                 </a>
