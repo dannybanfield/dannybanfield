@@ -128,44 +128,6 @@ export function HomePage() {
 
             {/* ---------- UPCOMING SHOWS ---------- */}
             <div id="shows" class="elfsight-app-d96db166-c337-4517-b382-6f4f7f33ac5b" data-elfsight-app-lazy></div>
-            {/* <div id="shows" class="divider border-white mx-8" />
-            <div class="flex flex-col w-full justify-evenly text-center px-4">
-              <p class="text-3xl font-sansmy-3"><span class="gradient-text">Upcoming Shows</span></p>
-              <p class="text-white text-lg font-sans mt-3">Fri Feb 16; Mar 1, 15, 29 2024 - KITCHEN PARTY -
-              <a class="link hover:text-yellow-500" href="https://www.shipwrightbrewing.com/" target="_blank">
-                  <span class="mx-1">Shipwright Taproom</span>
-                </a> - Lunenburg, NS</p>
-              <p class="text-white text-md font-sans mb-3">Every 2nd Friday indefinitely - 8:30-11:30pm</p>
-              <p class="text-white text-lg font-sans mt-3">Sat Mar 2, Apr 6, May 4 2024 - SONGVERSATION - 
-              <a class="link hover:text-yellow-500" href="https://www.kitchinn.com/bettys.html/" target="_blank">
-                  <span class="mx-1">Betty's at The Kitch</span>
-                </a> - Mahone Bay, NS</p>
-              <p class="text-white text-md font-sans mb-3">1st Saturday of every month - 7-11pm</p>
-              <p class="text-white text-lg font-sans mt-3">Fri Feb 23, 2024 - BANFIELD & BASTIAN - 
-              <a class="link hover:text-yellow-500" href="https://www.facebook.com/stmargarets.legion/" target="_blank">
-                  <span class="mx-1">Seabright Legion </span>
-                </a>- Seabright, NS - 8-11pm</p>
-              <p class="text-white text-md font-sans mb-3">$10 Cover - 19+ Event</p>
-              <p class="text-white text-lg font-sans mt-3">Fri Mar 8, 2024 - 
-              <a class="link hover:text-yellow-500" href="https://www.sackawa.ca/" target="_blank">
-                  <span class="mx-1">Sackawa Canoe Club</span>
-                </a> - Lower Sackville, NS - 7-10pm</p>
-              <p class="text-white text-lg font-sans mt-3">Sat Mar 16, 2024 - 
-              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
-                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
-                <p class="text-white text-lg font-sans mt-3">Fri May 31, 2024 - 
-              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
-                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
-                <p class="text-white text-lg font-sans mt-3">Sat Aug 17, 2024 - 
-              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
-                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
-                <p class="text-white text-lg font-sans mt-3">Sat Oct 5, 2024 - 
-              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
-                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
-                <p class="text-white text-lg font-sans mt-3">Sat Dec 14, 2024 - 
-              <a class="link hover:text-yellow-500" href="https://www.deerfieldpub.ca/" target="_blank">
-                  <span class="mx-1">Deerfield Pub</span></a> - Hammonds Plains, NS - 7-10pm</p>
-  </div> */}
             <BackToTop />
 
             {/* ---------- BIO - ABOUT DANNY ---------- */}
