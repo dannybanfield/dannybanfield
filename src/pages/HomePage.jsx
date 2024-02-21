@@ -17,14 +17,14 @@ export function HomePage() {
           <Navbar />
           <main>
             {/* ---------- TITLE AREA ---------- */}
-            <div class="flex flex-row justify-evenly w-full text-lg my-8">
+            <div class="flex flex-row justify-evenly w-full text-lg my-4">
               <a href="#party" target="_self" class="btn max-w-24 pb-1 border-b">Kitchen Party</a>
               <a href="#shows" target="_self" class="btn max-w-24 pb-1 border-b">Upcoming Shows</a>
               <a href="#bio" target="_self" class="btn max-w-24 border-b self-end">Bio</a>
               <a href="/contact/#requests" target="_self" class="btn max-w-24 border-b">Song Request</a>
               <a href="/contact/#book" target="_self" class="btn max-w-24 border-b">Book Me!</a>
             </div>
-            <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl my-6">
+            <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl mt-6 mb-4">
               <span class="gradient-text font-medium">DANNY BANFIELD</span>
             </div>
 
@@ -96,7 +96,7 @@ export function HomePage() {
                         <p>8:30pm</p>
                       </div>
                     </div>
-                    <div class="flex flex-row my-5">
+                    <div class="flex flex-row mt-5">
                       <image src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
                     </div>
                   </div>
@@ -127,7 +127,7 @@ export function HomePage() {
             <BackToTop />
 
             {/* ---------- UPCOMING SHOWS ---------- */}
-            <div id="shows" class="elfsight-app-d96db166-c337-4517-b382-6f4f7f33ac5b" data-elfsight-app-lazy></div>
+            <div id="shows" class="elfsight-app-d96db166-c337-4517-b382-6f4f7f33ac5b mt-4" data-elfsight-app-lazy></div>
             <BackToTop />
 
             {/* ---------- BIO - ABOUT DANNY ---------- */}
