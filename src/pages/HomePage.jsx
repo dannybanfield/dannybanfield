@@ -28,27 +28,28 @@ export function HomePage() {
               <span class="gradient-text font-medium">DANNY BANFIELD</span>
             </div>
 
+            {/* ---------- SOCIAL MEDIA LINKS ---------- */}
             <div class="flex flex-row mx-auto w-full gap-3 justify-center mb-4">
               <div class="bg-banfield text-black text-sm rounded-xl p-3">
-                <a href="https://www.instagram.com/dannybanfield" class="link">
+                <a href="https://www.instagram.com/dannybanfield" target="_blank" class="link">
                   <img src={Instagram} height="20" width="20" alt="Instagram" class="inline"></img>
                   <span class="ps-2 font-bold no-underline hidden xl:inline">Instagram</span>
                 </a>
               </div>
               <div class="bg-banfield text-black text-sm rounded-xl p-3">
-                <a href="https://www.facebook.com/danny.banfield/" class="link">
+                <a href="https://www.facebook.com/danny.banfield/" target="_blank" class="link">
                   <img src={Facebook} height="20" width="20" alt="Facebook" class="inline"></img>
                   <span class="ps-2 font-bold no-underline hidden xl:inline">Facebook</span>
                 </a>
               </div>
               <div class="bg-banfield text-black text-sm rounded-xl p-3">
-                <a href="https://www.youtube.com/user/DannyBanfield" class="link">
+                <a href="https://www.youtube.com/user/DannyBanfield" target="_blank" class="link">
                   <img src={YouTube} height="20" width="20" alt="YouTube" class="inline"></img>
                   <span class="ps-2 font-bold no-underline hidden xl:inline">YouTube</span>
                 </a>
               </div>
               <div class="bg-banfield text-black text-sm rounded-xl p-3">
-                <a href="https://soundcloud.com/banfieldd" class="link">
+                <a href="https://soundcloud.com/banfieldd" target="_blank" class="link">
                   <img src={SoundCloud} height="20" width="20" alt="SoundCloud" class="inline"></img>
                   <span class="ps-2 font-bold no-underline hidden xl:inline">SoundCloud</span>
                 </a>
