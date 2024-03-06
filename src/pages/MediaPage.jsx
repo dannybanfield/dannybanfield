@@ -169,6 +169,20 @@ export function MediaPage(props) {
           <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
             <div class="flex-col basis-1/2">
               <p class="flex-row py-2">
+              A cover of the beautiful John Hiatt song. Recorded for my love Theresa, who passed in Feb 2022, after a 10-year battle with early onset alzheimers.
+              </p>
+              <p class="flex-row py-2">
+              The note in the picture was written by Theresa...with great difficulty. 
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/749869108&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/banfieldd" title="Danny Banfield" target="_blank" style="color: #cccccc; text-decoration: none;">Danny Banfield</a> · <a href="https://soundcloud.com/banfieldd/have-a-little-faith-in-me-cover" title="Have a Little Faith in Me (Cover)" target="_blank" style="color: #cccccc; text-decoration: none;">Have a Little Faith in Me (Cover)</a></div>
+            </div>
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
               Porcupine was written by Terry Saunders, my childhood friend, and bandmate in The Luv Handles 
               from about 1993 to 2005 (pictured - L to R - Gary Greer, Brian Smeltzer, Howard Mclean, 
               Terry Saunders....and me).
