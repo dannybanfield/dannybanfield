@@ -226,6 +226,17 @@ export function MediaPage(props) {
             <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/banfieldd" title="Danny Banfield" target="_blank" style="color: #cccccc; text-decoration: none;">Danny Banfield</a> · <a href="https://soundcloud.com/banfieldd/another-part-of-your-heartbeat" title="Another Part of your Heartbeat" target="_blank" style="color: #cccccc; text-decoration: none;">Another Part of your Heartbeat</a></div>
             </div>
           </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
+              Written and imperfectly recorded way back in 1997. 
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75150531&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/banfieldd" title="Danny Banfield" target="_blank" style="color: #cccccc; text-decoration: none;">Danny Banfield</a> · <a href="https://soundcloud.com/banfieldd/wash-me-away" title="Wash Me Away" target="_blank" style="color: #cccccc; text-decoration: none;">Wash Me Away</a></div>
+            </div>
+          </div>
           
           <BackToTop />
           <div id="photos" class="gradient-text text-3xl font-sans my-3">
