@@ -272,9 +272,6 @@ export function MediaPage(props) {
             <div class="flex-col basis-1/3">
               <iframe width="400" height="225" src="https://www.youtube.com/embed/oOpE-3ogXsQ?si=b8StClpDQYfaGzXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="flex-col basis-1/3">
-              <iframe width="400" height="225" src="https://www.youtube.com/embed/ZkzpaRkbdQY?si=pDM5_S8ilMUwKvOt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
           </div>
           <BackToTop />
         </main>
