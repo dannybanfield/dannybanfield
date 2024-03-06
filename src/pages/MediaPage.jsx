@@ -100,13 +100,13 @@ export function MediaPage(props) {
           <div id="music" class="gradient-text text-3xl font-sans my-3">
             Music
           </div>
-          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
             <div class="flex-col basis-1/2">
               <p class="flex-row py-2">
-                My 1st single release is now available on all streaming platforms!
+                My 1st single release is available on all streaming platforms!
               </p>
               <p class="flex-row py-2">
-              For those who know me, you've been singing along to this song for decades - the Coal Miner's Symphony - a piece I wrote while going to school in Ontario, and missing home so much. This is a new recording, featuring Rob Willis on electric guitar.
+              My close friends and family have been singing along to this song for decades - the Coal Miner's Symphony - a piece I wrote around 1981/82 while attending Waterloo University.....and missing home so much. This is a new recording, featuring Rob Willis on electric guitar.
               </p>
               <p class="flex-row py-2">
                 That's right; Spotify, Google, Apple, Amazon, Pandora....you can listen to it on all of the above, and more!
@@ -122,13 +122,10 @@ export function MediaPage(props) {
               <SpotifyTrack track="7l8y00YBfJv7i3SUIR4jqA" title="Coal Miner's Symphony on Spotify" />
             </div>
           </div>
-          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-left text-xl my-6 px-8 gap-4">
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
             <div class="flex-col basis-1/2">
               <p class="flex-row py-2">
                 Of Christmas was written in 2022 by Lana Keddy and myself, and feature's Lana's golden voice. We had a blast producing this!
-              </p>
-              <p class="flex-row py-2">
-              For those who know us, you'll know how much we love you, and how this song comes from our hearts.
               </p>
               <p class="flex-row py-2">
                 It's available on all streaming platforms as well. Please feel free to add to your holiday playlist, and share with your friends.
@@ -136,6 +133,83 @@ export function MediaPage(props) {
             </div>
             <div class="flex-col basis-1/2">
               <SpotifyTrack track="3hf5ytEhNG5C2bqmgOkSAf" title="Of Christmas on Spotify" />
+            </div>
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
+              A song inspired by homelessness in the late 80's - a mosaic of characters.
+              </p>
+              <p class="flex-row py-2">
+              The vibe was influenced by Elvis Costello. 
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75148132&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/banfieldd" title="Danny Banfield" target="_blank" style="color: #cccccc; text-decoration: none;">Danny Banfield</a> · <a href="https://soundcloud.com/banfieldd/poverty-and-providence" title="Poverty and Providence" target="_blank" style="color: #cccccc; text-decoration: none;">Poverty and Providence</a></div>
+            </div>
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
+                This is Lanalanalana...practically impossible not to sing along with...kinda like Lana!
+              </p>
+              <p class="flex-row py-2">
+              If you know Lana, this song epitomizes the amazingness of her joyous, giving, loving, caring and playful ways. 
+              </p>
+              <p class="flex-row py-2">
+              Written and recorded in 2023
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1609378077&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+              </iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/banfieldd" title="Danny Banfield" target="_blank" style="color: #cccccc; text-decoration: none;">Danny Banfield</a> · <a href="https://soundcloud.com/banfieldd/lanalanalana" title="Lanalanalana" target="_blank" style="color: #cccccc; text-decoration: none;">Lanalanalana</a></div>
+            </div>
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
+              Porcupine was written by Terry Saunders, my childhood friend, and bandmate in The Luv Handles 
+              from about 1993 to 2005 (pictured - L to R - Gary Greer, Brian Smeltzer, Howard Mclean, 
+              Terry Saunders....and me).
+              </p>
+              <p class="flex-row py-2">
+              The Luv Handles recorded this song back at the turn of the millenium. 
+              This is my try at this crazy gem of a song! 
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/749860198&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/banfieldd" title="Danny Banfield" target="_blank" style="color: #cccccc; text-decoration: none;">Danny Banfield</a> · <a href="https://soundcloud.com/banfieldd/porcupinejan26-2020" title="Porcupine" target="_blank" style="color: #cccccc; text-decoration: none;">Porcupine</a></div>
+            </div>
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
+              Written in the early 90's....about a dude in my hood that was let out of jail (names have been changed, of course),
+               and the lynch mob scene that ensued as he tried to integrate back into society.
+              </p>
+              <p class="flex-row py-2">
+              It's too easy for things to get carried away...to escalate. It's a trap that's hard to fall out of. 
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75149466&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/banfieldd" title="Danny Banfield" target="_blank" style="color: #cccccc; text-decoration: none;">Danny Banfield</a> · <a href="https://soundcloud.com/banfieldd/warlock-hunt" title="Warlock Hunt" target="_blank" style="color: #cccccc; text-decoration: none;">Warlock Hunt</a></div>
+            </div>
+          </div>
+          <div class="flex flex-row md:container md:mx-auto w-full justify-center text-white text-right text-l my-6 px-8 gap-4">
+            <div class="flex-col basis-1/2">
+              <p class="flex-row py-2">
+              A goofy ditty from decades ago. 
+              </p>
+              <p class="flex-row py-2">
+              Your heartbeat is comprised of many instruments.
+              </p>
+            </div>
+            <div class="flex-col basis-1/2">
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75147060&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/banfieldd" title="Danny Banfield" target="_blank" style="color: #cccccc; text-decoration: none;">Danny Banfield</a> · <a href="https://soundcloud.com/banfieldd/another-part-of-your-heartbeat" title="Another Part of your Heartbeat" target="_blank" style="color: #cccccc; text-decoration: none;">Another Part of your Heartbeat</a></div>
             </div>
           </div>
           
