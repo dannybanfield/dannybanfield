@@ -8,21 +8,22 @@ import Facebook from "~/assets/logo-facebook.png";
 import Instagram from "~/assets/logo-instagram.png";
 import YouTube from "~/assets/logo-youtube.png";
 import SoundCloud from "~/assets/logo-soundcloud.png";
+import Logo from "~/assets/Logo.png";
 
 export function HomePage() {
   return (
-    <div class="flex flex-col min-h-dvh bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
+    <div class="flex flex-col min-h-dvh min-w-80 bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
       <div class="md:container md:mx-auto">
         <div class="flex flex-col normal-container justify-around text-center m-0 p-0 mb-8">
           <Navbar />
           <main>
             {/* ---------- TITLE AREA ---------- */}
             <div class="flex flex-row justify-evenly w-full text-lg my-4">
-              <a href="#party" target="_self" class="btn max-w-24 pb-1 border-b">Kitchen Party</a>
-              <a href="#shows" target="_self" class="btn max-w-24 pb-1 border-b">Upcoming Shows</a>
-              <a href="#bio" target="_self" class="btn max-w-24 border-b self-end">Bio</a>
-              <a href="/contact/#requests" target="_self" class="btn max-w-24 border-b">Song Request</a>
-              <a href="/contact/#book" target="_self" class="btn max-w-24 border-b">Book Me!</a>
+              <a href="#party" target="_self" class="btn btn-ghost max-w-24 pb-1 border-b">Kitchen Party</a>
+              <a href="#shows" target="_self" class="btn btn-ghost max-w-24 pb-1 border-b">Upcoming Shows</a>
+              <a href="#bio" target="_self" class="btn btn-ghost max-w-24 border-b self-end">Bio</a>
+              <a href="/contact/#requests" target="_self" class="btn btn-ghost max-w-24 border-b">Song Request</a>
+              <a href="/contact/#book" target="_self" class="btn btn-ghost max-w-24 border-b">Book Me!</a>
             </div>
             <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl mt-6 mb-4">
               <span class="gradient-text font-medium">DANNY BANFIELD</span>
@@ -56,21 +57,26 @@ export function HomePage() {
               </div>
             </div>
 
-            
+
             {/* ---------- CLASSIC SONGS INTRO ---------- */}
-            <div class="flex flex-row text-amber-100 w-full justify-evenly px-8 text-center gap-4">
-              <div class="flex-col">
-                <div class="text-2xl font-sans font-bold lg:mt-6">
+            <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6 text-center gap-4">
+              <div class="flex-col items-center">
+                <div class="flex justify-center">
+                  <image src={Logo} alt="Danny Banfield Logo" width="256" />
+                </div>
+                <div class="text-2xl font-sans font-bold my-2">
                   <span class="gradient-text">Classic Songs You Forgot You Loved</span>
                 </div>
-                <div class="text-white text-lg font-sans max-w-96 my-3">
+                <a href="/contact/#book" target="_self">
+                  <button class="btn btn-warning w-80 text-xl my-3">Book Me!</button>
+                </a>
+                <div class="text-white text-lg font-sans max-w-96 my-2">
                   An engaging entertainer with a golden voice, and a HUGE repertoire of songs you forgot you loved, songs you've always loved,
                   and songs you will grow to love...originals and covers. Requests and musical guests welcome!!
                 </div>
-                <a href="/contact/#book" target="_self" ><button class="btn btn-warning w-80 text-xl mt-4">Book Me!</button></a>
               </div>
-              <div class="flex-col">
-                <image src={DanInBar} class="rounded-xl" alt="Danny Banfield in the Bar" />
+              <div class="flex-col items-center w-full md:flex-col">
+                <image src={DanInBar} class="rounded-xl w-full max-w-[888px]" alt="Danny Banfield in the Bar" />
               </div>
             </div>
 
