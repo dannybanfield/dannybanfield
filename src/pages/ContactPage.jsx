@@ -59,27 +59,16 @@ export function ContactPage(props) {
 
             {/* <div class="divider divider-horizontal hidden lg:inline" /> */}
             <div class="flex-col basis-1/2 font-thin my-4 text-left">
+              <p class="flex-row py-2 text-3xl gradient-text text-center">Book A Show!</p>
               <p class="flex-row py-1">
-                Are you looking to hire a party band? Danny is lead vocalist and guitarist for <em>The Laughing Freemen</em>.
-                The Freemen play a special blend of classic rock/ pop/ new wave/ funk/ Motown/ country.
+                <em>Danny Banfield</em> offers a show for all budgets! Contact Danny through the <em>Book Me!</em> <a href="#book" class="link text-banfield">booking form</a> below!
               </p>
+              <p class="flex-row py-2 text-3xl gradient-text text-center">Request A Song!</p>
               <p class="flex-row py-1">
-                Theme shows (60s, 70s, 80s, CanCon, Acoustic Pop, etc) and interactive "join the band" parties are also options
-                when booking The Freemen. Special songs and/or requests are welcome.
-              </p>
-              <p class="flex-row py-1">
-                Visit <a class="link text-banfield" href="https://www.laughing-freemen.com/">laughing-freemen.com</a> to learn more.
+                Want to make a special request for an upcoming show? Feel free to make a request through the <em>Live Show Song Request</em> <a href="#book" class="link text-banfield">request form</a>form below!
               </p>
             </div>
           </div>
-
-          <div class="flex flex-col md:container md:mx-auto w-full text-center text-white text-xl my-6 px-8">
-            <p class="flex-row py-2 text-3xl gradient-text text-center">Book Me!</p>
-            <p class="flex-row py-1">
-              <em>The Laughing Freemen</em> offer a show for all budgets! Contact Danny through the <a href="#book" class="link text-banfield">booking form</a> below!
-            </p>
-          </div>
-          <BackToTop />
 
           <div id="requests" class="divider mx-8 my-2" />
           {/* ---------- SONG REQUESTS & BOOKING ---------- */}
