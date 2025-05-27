@@ -83,7 +83,7 @@ export function HomePage() {
 
             <div class="divider md:container gradient-text" />
             <div id="artists-list" class="flex flex-row lg:flex-col px-4 text-left text-sm">
-              Danny Banfield (Originals) - Atlantic Canadian Faves from Stan Rogers, Anne Murray, the Fables, Alistair McGillivary, and others - 10CC - Beatles - Blue Rodeo - Garth Brooks - Neil Young - Van Morrison - Jason Mraz - Looking Glass
+              Danny Banfield (Originals) - Atlantic Canadian Faves from Stan Rogers, Anne Murray, the Fables, Joel Plaskett, Alistair McGillivary, Great Big Sea, Matt Mays, Ron Hynes, April Wine, and others - 10CC - Beatles - Blue Rodeo - Garth Brooks - Neil Young - Van Morrison - Jason Mraz - Looking Glass
               - Neil Diamond - Eagles - Trooper - James Taylor - Jimmy Buffett - Willie Nelson - Band - Lighthouse - Led Zeppelin - Monkees
               - Muppets - Michael Jackson - Stone Temple Pilots - Temptations - Nancy Sinatra - Warren Zevon - Steve Miller - Who - Ron Hynes
               - Prince - Hank Williams - Harry Chapin - Gordon Lightfoot - Cat Stevens - Joe Jackson - Tragically Hip - John Denver - Stampeders
