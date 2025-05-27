@@ -2,7 +2,7 @@ import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
 import DanInBar from "~/assets/DanBar.webp";
 import Dan2 from "~/assets/Dan2.png";
-import StarSVG from "~/assets/star.svg";
+import MapIcon from "~/assets/map.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";
 import Facebook from "~/assets/logo-facebook.png";
 import Instagram from "~/assets/logo-instagram.png";
@@ -19,10 +19,10 @@ export function HomePage() {
           <main>
             {/* ---------- TITLE AREA ---------- */}
             <div class="flex flex-row justify-evenly w-full text-lg my-4">
-              <a href="#party" target="_self" class="btn btn-ghost max-w-24 pb-1 border-b">Kitchen Party</a>
-              <a href="#shows" target="_self" class="btn btn-ghost max-w-24 pb-1 border-b">Upcoming Shows</a>
+              <a href="#news" target="_self" class="btn btn-ghost max-w-24 pb-1 border-b">News</a>
+              <a href="#shows" target="_self" class="btn btn-ghost max-w-24 pb-1 border-b">Calendar</a>
               <a href="#bio" target="_self" class="btn btn-ghost max-w-24 border-b self-end">Bio</a>
-              <a href="/contact/#requests" target="_self" class="btn btn-ghost max-w-24 border-b">Song Request</a>
+              <a href="/contact/#requests" target="_self" class="btn btn-ghost max-w-24 border-b">Requests!</a>
               <a href="/contact/#book" target="_self" class="btn btn-ghost max-w-24 border-b">Book Me!</a>
             </div>
             <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl mt-6 mb-4">
@@ -80,60 +80,105 @@ export function HomePage() {
               </div>
             </div>
 
-            {/* ---------- KITCHEN PARTY ---------- */}
-            <div id="party" class="divider md:container gradient-text" />
-            <div class="flex flex-row flex-wrap md:container justify-evenly text-center px-4">
-              <div class="flex flex-col basis-2/5 px-4">
+            <div class="divider md:container gradient-text" />
+            <div id="artists-list" class="flex flex-row lg:flex-col px-4 text-left text-sm">
+              Danny Banfield (Originals) - 10CC - Beatles - Blue Rodeo - Garth Brooks - Neil Young - Van Morrison - Jason Mraz - Looking Glass
+              - Neil Diamond - Eagles - Trooper - James Taylor - Jimmy Buffett - Willie Nelson - Band - Lighthouse - Led Zeppelin - Monkees
+              - Muppets - Michael Jackson - Stone Temple Pilots - Temptations - Nancy Sinatra - Warren Zevon - Steve Miller - Who - Ron Hynes
+              - Prince - Hank Williams - Harry Chapin - Gordon Lightfoot - Cat Stevens - Joe Jackson - Tragically Hip - John Denver - Stampeders
+              - U2 - Bruce Springsteen - Judy Garland - Kim Mitchell - Steelers Wheel - Oasis - Louis Armstrong - Billy Joel - The Police - Incubus
+              - Johnny Cash - Old Crow Medicine Show - Partridge Family - Ramones - Seals & Crofts - Dr. Hook - Five Man Electrical Band - Phil Collins
+              - Guns N' Roses - Alistair MacGillivray -  George Michael - America - Metallica - Steppenwolf - Lovin Spoonful - Glen Campbell
+              - Dire Straits - AC/DC - Murray McLaughlin - Rush - Talking Heads - Don McLean - Doors - BJ Thomas - Lyle Lovett - April Wine - REM
+              - Duran Duran - Tom Jones - The Cure - Journey - Kenny Rogers - Lynyrd Skynyrd - Doobie Brothers - John Mellencamp - Kool and the Gang
+              - Tina Turner - Queen - Bryan Adams - Hall & Oates - Al Stewart - Alice Cooper - Alice in Chains - Pat Benatar - Valdy - Billy Idol
+              - Peter Gabriel - Crowbar - Crowded House - INXS - Tom Petty & the Heartbreakers - Eurythmics - Black Crowes - Bob Marley - Boomtown Rats
+              - Bruce Cockburn - BTO - Cake - The Cars - Aerosmith - ZZ Top - The Rolling Stones - Heart - David Bowie - Elton John - Rod Stewart
+              - Stevie Wonder - Toto - Bob Seger - Fleetwood Mac - Dobie Gray - Deep Purple - Paul McCartney - Don Henley - Paul Simon - Tracy Chapman
+              - Culture Club - Chicago - Men at Work - Pink Floyd - Robert Palmer - Kenny Loggins - Tears for Fears - B-52's - Boston - Joan Jett
+              - Stevie Nicks - Sting - The Pretenders - The Clash - Squeeze - Styx - The Human League - Violent Femmes - Elvis Costello - Eddie Money
+              - Loverboy - Crosby Stills Nash (& Young) - Aretha Franklin  - KISS - Marvin Gaye - Spandau Ballet
+              - Bonnie Raitt - Eric Clapton - Corey Hart - John Lennon - Red Hot Chili Peppers - Rick Springfield - Tom Waits - Chris De Burgh
+              - and WHATEVER OTHER SONGS WE COME UP WITH IN THE SONVERSATION!!!
+            </div>
 
-                <div class="flex flex-col lg:flex-row">
-                  <div class="flex flex-col">
-                    <div class="gradient-text text-3xl font-sans  my-3">
-                      The Kitchen Party
+            {/* ---------- NEWS: SUNDAY SOCIABLE & KITCHEN PARTY ---------- */}
+            <div class="divider md:container gradient-text" />
+            <div id="news" class="flex flex-row flex-wrap md:container justify-evenly text-center px-4">
+              <div id="promo-list" class="flex flex-col px-4 w-full">
+                <div id="events-list" class="flex flex-col lg:flex-row lg:justify-around lg:gap-8">
+                  <div id="sunday-sociable" class="flex flex-col lg:basis-1/2">
+                    <div class="gradient-text text-4xl font-sans my-3">
+                      The Sunday Sociable
+                    </div>
+                    <div class="gradient-text text-lg font-sans">
+                      Danny hosts every second Sunday
+                    </div>
+                    <div class="gradient-text text-lg font-sans">
+                      Alternate Sundays hosted by Doug Hawco, and Thompson & Middleton
                     </div>
 
-                    <div class="flex flex-col lg:flex-row mx-auto">
-                      <div class="flex flex-col text-white text-lg font-sans mx-4 my-3">
-                        <p>Shipwright Brewing Company</p>
-                        <p>80 Montague Street,</p>
-                        <p>Lunenburg</p>
+                    <div class="flex flex-col lg:flex-row text-left mx-auto mt-3">
+                      <div class="flex flex-col lg:text-right text-white">
+                        <p>Eli + Trix</p>
+                        <p>Every 2nd Sunday</p>
+                        <p>2-4pm</p>
                       </div>
-                      <div class="flex flex-col text-center mx-4 justify-around">
-                        <img src={StarSVG} class="bg-white w-8 h-8 my-2 mx-auto" alt="Star" />
+                      <div class="flex flex-col lg:text-left lg:mx-4 justify-around">
+                        <p>538 Main St.</p>
+                        <p>Mahone Bay, NS</p>
+                        <a class="flex flex-row items-center" href="https://maps.app.goo.gl/iMw1rdYAUJ8TWNZj7" target="_blank">
+                          <span>See on map</span>
+                        <img src={MapIcon} class="w-6 h-6 mx-2" alt="See location on Google Maps" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="flex flex-row justify-center mt-5">
+                      <image src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
+                    </div>
+                  </div>
+                  <div id="kitchen-party" class="flex flex-col lg:basis-1/2">
+                    <div class="gradient-text text-4xl font-sans my-3">
+                      The Kitchen Party
+                    </div>
+                    <div class="gradient-text text-lg font-sans">
+                      Danny hosts every second Friday
+                    </div>
+                    <div class="gradient-text text-lg font-sans">
+                      Have a songversation with Danny!
+                    </div>
+
+                    <div class="flex flex-col text-left lg:flex-row mx-auto mt-3">
+                      <div class="flex flex-col lg:text-right text-white">
+                        <p>Shipwright Brewing Company</p>
                         <p>Every 2nd Friday</p>
                         <p>8:30pm</p>
                       </div>
+                      <div class="flex flex-col lg:mx-4 justify-around">
+                        <p>80 Montague Street,</p>
+                        <p>Lunenburg</p>
+                        <a class="flex flex-row items-center" href="https://maps.app.goo.gl/YHAWWwhQmE9dMrrWA" target="_blank">
+                          <span>See on map</span>
+                          <img src={MapIcon} class="w-6 h-6 mx-2" alt="See location on Google Maps" />
+                        </a>
+                      </div>
                     </div>
-                    <div class="flex flex-row mt-5">
+                    <div class="flex flex-row justify-center mt-5">
                       <image src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="flex flex-row lg:flex-col md:basis-3/5 px-4 xl:mt-48 text-left text-sm">
-                Danny Banfield (Originals) - 10CC - Beatles - Blue Rodeo - Garth Brooks - Neil Young - Van Morrison - Jason Mraz - Looking Glass
-                - Neil Diamond - Eagles - Trooper - James Taylor - Jimmy Buffett - Willie Nelson - Band - Lighthouse - Led Zeppelin - Monkees
-                - Muppets - Michael Jackson - Stone Temple Pilots - Temptations - Nancy Sinatra - Warren Zevon - Steve Miller - Who - Ron Hynes
-                - Prince - Hank Williams - Harry Chapin - Gordon Lightfoot - Cat Stevens - Joe Jackson - Tragically Hip - John Denver - Stampeders
-                - U2 - Bruce Springsteen - Judy Garland - Kim Mitchell - Steelers Wheel - Oasis - Louis Armstrong - Billy Joel - The Police - Incubus
-                - Johnny Cash - Old Crow Medicine Show - Partridge Family - Ramones - Seals & Crofts - Dr. Hook - Five Man Electrical Band - Phil Collins
-                - Guns N' Roses - Alistair MacGillivray -  George Michael - America - Metallica - Steppenwolf - Lovin Spoonful - Glen Campbell
-                - Dire Straits - AC/DC - Murray McLaughlin - Rush - Talking Heads - Don McLean - Doors - BJ Thomas - Lyle Lovett - April Wine - REM
-                - Duran Duran - Tom Jones - The Cure - Journey - Kenny Rogers - Lynyrd Skynyrd - Doobie Brothers - John Mellencamp - Kool and the Gang
-                - Tina Turner - Queen - Bryan Adams - Hall & Oates - Al Stewart - Alice Cooper - Alice in Chains - Pat Benatar - Valdy - Billy Idol
-                - Peter Gabriel - Crowbar - Crowded House - INXS - Tom Petty & the Heartbreakers - Eurythmics - Black Crowes - Bob Marley - Boomtown Rats
-                - Bruce Cockburn - BTO - Cake - The Cars - Aerosmith - ZZ Top - The Rolling Stones - Heart - David Bowie - Elton John - Rod Stewart
-                - Stevie Wonder - Toto - Bob Seger - Fleetwood Mac - Dobie Gray - Deep Purple - Paul McCartney - Don Henley - Paul Simon - Tracy Chapman
-                - Culture Club - Chicago - Men at Work - Pink Floyd - Robert Palmer - Kenny Loggins - Tears for Fears - B-52's - Boston - Joan Jett
-                - Stevie Nicks - Sting - The Pretenders - The Clash - Squeeze - Styx - The Human League - Violent Femmes - Elvis Costello - Eddie Money
-                - Loverboy - Crosby Stills Nash (& Young) - Aretha Franklin  - KISS - Marvin Gaye - Spandau Ballet
-                - Bonnie Raitt - Eric Clapton - Corey Hart - John Lennon - Red Hot Chili Peppers - Rick Springfield - Tom Waits - Chris De Burgh
-                - and WHATEVER OTHER SONGS WE COME UP WITH IN THE SONVERSATION!!!
-              </div>
             </div>
+
             <BackToTop />
 
-            {/* ---------- UPCOMING SHOWS ---------- */}
+            {/* ---------- CALENDAR ---------- */}
+            <div class="divider md:container gradient-text" />
+            <div class="gradient-text text-4xl font-sans my-3">
+              Danny's Calendar
+            </div>
+
             <div id="shows" class="elfsight-app-d96db166-c337-4517-b382-6f4f7f33ac5b mt-4" data-elfsight-app-lazy></div>
             <BackToTop />
 
@@ -142,7 +187,7 @@ export function HomePage() {
             <div class="flex flex-row flex-wrap lg:flex-nowrap text-left px-4">
               <div class="flex flex-col px-4">
                 <div class="flex flex-row my-3">
-                  <p class="text-3xl font-sans gradient-text">About Danny</p>
+                  <p class="text-3xl font-sans gradient-text">About Danny Banfield</p>
                 </div>
                 <div class="text-white text-lg font-sans">
                   <p class="my-3"><em>Danny Banfield</em> has been entertaining since childhood, when he used his voice, a ukulele, and a box of rice for percussion to deliver a rockin' rendition of the Stampeders' "Sweet City Woman." It was his first offering in the Songversation that continues to this day. Countless house parties and basement jams in the North End of Halifax were a training ground for the young songster.</p>
