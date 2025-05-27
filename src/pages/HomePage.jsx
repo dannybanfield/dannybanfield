@@ -4,6 +4,7 @@ import DanInBar from "~/assets/DanBar.webp";
 import Dan2 from "~/assets/Dan2.png";
 import MapIcon from "~/assets/map.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";
+import SundaySociablePromo from "~/assets/sundaysociablepromo.png";
 import Facebook from "~/assets/logo-facebook.png";
 import Instagram from "~/assets/logo-instagram.png";
 import YouTube from "~/assets/logo-youtube.png";
@@ -134,7 +135,7 @@ export function HomePage() {
                       </div>
                     </div>
                     <div class="flex flex-row justify-center mt-5">
-                      <image src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
+                      <image src={SundaySociablePromo} class="rounded-xl" style="max-height:480px;" alt="Sunday Sociable Promo" />
                     </div>
                   </div>
                   <div id="kitchen-party" class="flex flex-col lg:basis-1/2">
@@ -148,7 +149,7 @@ export function HomePage() {
                       Have a songversation with Danny!
                     </div>
 
-                    <div class="flex flex-col text-left lg:flex-row mx-auto mt-3">
+                    <div class="flex flex-col lg:flex-row text-left mx-auto mt-3">
                       <div class="flex flex-col lg:text-right text-white">
                         <p>Shipwright Brewing Company</p>
                         <p>Every 2nd Friday</p>
