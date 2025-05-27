@@ -83,13 +83,13 @@ export function HomePage() {
 
             <div class="divider md:container gradient-text" />
             <div id="artists-list" class="flex flex-row lg:flex-col px-4 text-left text-sm">
-              Danny Banfield (Originals) - Atlantic Canadian Faves from Stan Rogers, Anne Murray, the Fables, Joel Plaskett, Alistair McGillivary, Great Big Sea, Matt Mays, Ron Hynes, April Wine, and others - 10CC - Beatles - Blue Rodeo - Garth Brooks - Neil Young - Van Morrison - Jason Mraz - Looking Glass
+              Danny Banfield (Originals) - Atlantic Canadian Faves from Stan Rogers, Anne Murray, the Fables, Joel Plaskett, Alistair McGillivary, Great Big Sea, Matt Mays, Ron Hynes, April Wine, and others - Beatles - Blue Rodeo - Garth Brooks - Neil Young - Van Morrison - Jason Mraz - Looking Glass
               - Neil Diamond - Eagles - Trooper - James Taylor - Jimmy Buffett - Willie Nelson - Band - Lighthouse - Led Zeppelin - Monkees
-              - Muppets - Michael Jackson - Stone Temple Pilots - Temptations - Nancy Sinatra - Warren Zevon - Steve Miller - Who - Ron Hynes
-              - Prince - Hank Williams - Harry Chapin - Gordon Lightfoot - Cat Stevens - Joe Jackson - Tragically Hip - John Denver - Stampeders
-              - U2 - Bruce Springsteen - Judy Garland - Kim Mitchell - Steelers Wheel - Oasis - Louis Armstrong - Billy Joel - The Police - Incubus
+              - Muppets - Michael Jackson - Stone Temple Pilots - Temptations - Chris Stapleton - Nancy Sinatra - Warren Zevon - Steve Miller - Who 
+              - Prince - Hank Williams - Meatloaf - Harry Chapin - Gordon Lightfoot - Cat Stevens - Joe Jackson - Tragically Hip - John Denver - Stampeders
+              - U2 - Bruce Springsteen - Judy Garland - Tyler Childers - Kim Mitchell - Steelers Wheel - Oasis - Louis Armstrong - Billy Joel - The Police - Incubus
               - Johnny Cash - Old Crow Medicine Show - Partridge Family - Ramones - Seals & Crofts - Dr. Hook - Five Man Electrical Band - Phil Collins
-              - Guns N' Roses - Alistair MacGillivray -  George Michael - America - Metallica - Steppenwolf - Lovin Spoonful - Glen Campbell
+              - Guns N' Roses  -  George Michael - America - Metallica - Steppenwolf - Lovin Spoonful - Glen Campbell
               - Dire Straits - AC/DC - Murray McLaughlin - Rush - Talking Heads - Don McLean - Doors - BJ Thomas - Lyle Lovett - April Wine - REM
               - Duran Duran - Tom Jones - The Cure - Journey - Kenny Rogers - Lynyrd Skynyrd - Doobie Brothers - John Mellencamp - Kool and the Gang
               - Tina Turner - Queen - Bryan Adams - Hall & Oates - Al Stewart - Alice Cooper - Alice in Chains - Pat Benatar - Valdy - Billy Idol
