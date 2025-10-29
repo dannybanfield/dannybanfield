@@ -4,7 +4,7 @@ import DanInBar from "~/assets/DanBar.webp";
 import Dan2 from "~/assets/Dan2.png";
 import MapIcon from "~/assets/map.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";
-import SundaySociablePromo from "~/assets/elitrix.jpg";
+import SundaySociablePromo from "~/assets/DansJam.jpg";
 import Facebook from "~/assets/logo-facebook.png";
 import Instagram from "~/assets/logo-instagram.png";
 import YouTube from "~/assets/logo-youtube.png";
@@ -110,13 +110,16 @@ export function HomePage() {
                 <div id="events-list" class="flex flex-col lg:flex-row lg:justify-around lg:gap-8">
                   <div id="sunday-sociable" class="flex flex-col lg:basis-1/2">
                     <div class="gradient-text text-4xl font-sans my-3">
-                      The Sunday Sociable
+                      Dan's Jam
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      Danny hosts every second Sunday
+                      Sponsored by Team United East
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      Alternate Sundays hosted by Doug Hawco, and Thompson & Middleton
+                      Every Thursday night 7pm start
+                    </div>
+                    <div class="gradient-text text-lg font-sans">
+                      DM Danny to jam!
                     </div>
 
                     <div class="flex flex-col lg:flex-row text-left mx-auto mt-3">
