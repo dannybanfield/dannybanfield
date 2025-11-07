@@ -1,3 +1,4 @@
+import { Title, Meta } from "@solidjs/meta";
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
 import DanInBar from "~/assets/DanBar.webp";
@@ -13,7 +14,12 @@ import Logo from "~/assets/Logo.png";
 
 export function HomePage() {
   return (
-    <div class="flex flex-col min-h-dvh min-w-80 bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
+    <>
+      <Title>Danny Banfield - Classic Songs You Forgot You Loved</Title>
+      <Meta name="description" content="Danny Banfield's personal music artist website. An engaging entertainer with a golden voice and huge repertoire of classic songs, originals and covers. Book for events and musical entertainment." />
+      <Meta name="keywords" content="Danny Banfield, musician, artist, live music, Atlantic Canada, classic songs, covers, originals, entertainment, booking" />
+      
+      <div class="flex flex-col min-h-dvh min-w-80 bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
       <div class="md:container md:mx-auto">
         <div class="flex flex-col normal-container justify-around text-center m-0 p-0 mb-8">
           <Navbar />
@@ -212,6 +218,7 @@ export function HomePage() {
           </main>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

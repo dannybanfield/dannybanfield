@@ -1,5 +1,6 @@
 import { createSignal, createEffect } from "solid-js";
 import { useNavigate } from "@solidjs/router";
+import { Title, Meta } from "@solidjs/meta";
 
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
@@ -71,6 +72,9 @@ export function MediaPage(props) {
 
 
   return (<>
+    <Title>Media - Danny Banfield</Title>
+    <Meta name="description" content="Watch videos and listen to music by Danny Banfield. View photo gallery and Spotify tracks from this Atlantic Canadian musician." />
+    
     <div class="flex flex-col min-h-dvh bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
       <div class="flex flex-col normal-container justify-around text-center m-0 p-0">
         <Navbar />

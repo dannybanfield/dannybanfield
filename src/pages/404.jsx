@@ -3,7 +3,7 @@ import { A } from "@solidjs/router";
 
 export function NotFoundPage() {
   return (<>
-    <Title>404 - Not Found | Marketplace</Title>
+    <Title>404 - Not Found | Danny Banfield</Title>
     <div class="h-dvh text-gray-700 bg-neutral-700">
       <main class="text-center mx-autop-4">
         <h1 class="max-6-xs text-6xl text-orange-500 font-thin uppercase my-16">

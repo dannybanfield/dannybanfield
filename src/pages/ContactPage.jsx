@@ -1,3 +1,4 @@
+import { Title, Meta } from "@solidjs/meta";
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
 import Facebook from "~/assets/logo-facebook.png";
@@ -11,7 +12,11 @@ const emailSubmitAction = `https://formsubmit.co/${myEmailToken}`;
 
 export function ContactPage(props) {
   return (
-    <div class="flex flex-col min-h-dvh bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
+    <>
+      <Title>Contact - Danny Banfield</Title>
+      <Meta name="description" content="Contact Danny Banfield for booking, song requests, and musical entertainment. Email, phone, and social media contact information." />
+      
+      <div class="flex flex-col min-h-dvh bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
       <div class="flex flex-col normal-container justify-around text-center m-0 p-0">
         <Navbar />
         <main>
@@ -136,6 +141,7 @@ export function ContactPage(props) {
           <BackToTop />
         </main>
       </div>
-    </div>
+      </div>
+    </>
   );
 }
