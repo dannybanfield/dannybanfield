@@ -69,7 +69,7 @@ export function HomePage() {
             <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6">
               <div class="flex flex-col items-center text-center basis-1/2">
                 <div class="flex justify-center">
-                  <image src={Logo} alt="Danny Banfield Logo" width="256" />
+                  <img src={Logo} alt="Danny Banfield Logo" width="256" />
                 </div>
                 <div class="text-2xl font-sans font-bold my-2">
                   <span class="gradient-text">Classic Songs You Forgot You Loved</span>
@@ -83,7 +83,7 @@ export function HomePage() {
                 </div>
               </div>
               <div class="flex flex-col items-center basis-1/2 max-w-[400px]">
-                <image src={DanInBar} class="rounded-xl max-w-full" style="object-fit: contain;" alt="New Years Dance featuring Danny Banfield" />
+                <img src={DanInBar} class="rounded-xl max-w-full" style="object-fit: contain;" alt="New Years Dance featuring Danny Banfield" />
               </div>
             </div>
 
@@ -144,7 +144,7 @@ export function HomePage() {
                       </div>
                     </div>
                     <div class="flex flex-row justify-center mt-5">
-                      <image src={SundaySociablePromo} class="rounded-xl" style="max-height:480px;" alt="Sunday Sociable Promo" />
+                      <img src={SundaySociablePromo} class="rounded-xl" style="max-height:480px;" alt="Sunday Sociable Promo" />
                     </div>
                   </div>
                   <div id="kitchen-party" class="flex flex-col lg:basis-1/2">
@@ -174,7 +174,7 @@ export function HomePage() {
                       </div>
                     </div>
                     <div class="flex flex-row justify-center mt-5">
-                      <image src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
+                      <img src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
                     </div>
                   </div>
                 </div>
@@ -210,7 +210,7 @@ export function HomePage() {
               </div>
 
               <div class="flex flex-col justify-center mx-auto">
-                <image src={Dan2} class="px-4 rounded-xl max-w-fit" alt="Danny Performing" style="max-height: 640px;" />
+                <img src={Dan2} class="px-4 rounded-xl max-w-fit" alt="Danny Performing" style="max-height: 640px;" />
               </div>
             </div>
 
