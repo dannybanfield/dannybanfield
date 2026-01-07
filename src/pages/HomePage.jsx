@@ -1,7 +1,8 @@
 import { Title, Meta } from "@solidjs/meta";
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
-import DanInBar from "~/assets/danny-nye.jpg";
+import NYE from "~/assets/danny-nye.jpg";
+import DanInBar from "~/assets/DanBar.webp";
 import Dan2 from "~/assets/Dan2.png";
 import MapIcon from "~/assets/map.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";
@@ -67,7 +68,7 @@ export function HomePage() {
 
             {/* ---------- CLASSIC SONGS INTRO ---------- */}
             <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6">
-              <div class="flex flex-col items-center text-center basis-1/2">
+              <div class="flex flex-col items-center text-center">
                 <div class="flex justify-center">
                   <img src={Logo} alt="Danny Banfield Logo" width="256" />
                 </div>
@@ -82,9 +83,8 @@ export function HomePage() {
                   and songs you will grow to love...originals and covers. Requests and musical guests welcome!!
                 </div>
               </div>
-              <div class="flex flex-col items-center basis-1/2 max-w-[400px]">
-                <img src={DanInBar} class="rounded-xl max-w-full" style="object-fit: contain;" alt="New Years Dance featuring Danny Banfield" />
-              </div>
+              <div class="flex-col items-center w-full md:flex-col">
+                <img src={DanInBar} class="rounded-xl w-full max-w-[888px]" alt="Danny Banfield in the Bar" />              </div>
             </div>
 
             <div class="divider md:container gradient-text" />
