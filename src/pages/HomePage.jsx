@@ -3,7 +3,7 @@ import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
 import DanInBar from "~/assets/nye.jpg";
 import Dan2 from "~/assets/Dan2.png";
-import DB-qr from "~/assets/DB-qr.png";
+import DannyQR from "~/assets/DB-qr.png";
 import MapIcon from "~/assets/map.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";
 import SundaySociablePromo from "~/assets/DansJam.jpg";
@@ -64,7 +64,19 @@ export function HomePage() {
                 </a>
               </div>
             </div>
-
+{/* ---------- TIP JAR / QR CODE ---------- */}
+<div class="flex flex-col items-center my-8 px-4 text-center">
+  <div class="bg-white p-3 rounded-xl shadow-lg inline-block mb-3">
+    <img 
+      src={DannyQR} 
+      alt="Tip Danny QR Code" 
+      class="w-32 h-32 md:w-40 md:h-40" 
+    />
+  </div>
+  <a href="https://your-tipping-link-here.com" target="_blank" class="link text-amber-100 hover:text-yellow-500 transition-colors">
+    <p class="text-lg font-bold">Tip Danny for a performance by clicking here!</p>
+  </a>
+</div>
 
             {/* ---------- CLASSIC SONGS INTRO ---------- */}
             <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6">
