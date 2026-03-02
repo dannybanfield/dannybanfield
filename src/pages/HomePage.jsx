@@ -1,7 +1,8 @@
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
-import DanInBar from "~/assets/DanBar.webp";
+import DanInBar from "~/assets/nye.jpg";
 import Dan2 from "~/assets/Dan2.png";
+import DB-qr from "~/assets/DB-qr.png";
 import MapIcon from "~/assets/map.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";
 import SundaySociablePromo from "~/assets/elitrix.jpg";
@@ -193,7 +194,7 @@ export function HomePage() {
                 <div class="text-white text-lg font-sans">
                   <p class="my-3"><em>Danny Banfield</em> has been entertaining since childhood, when he used his voice, a ukulele, and a box of rice for percussion to deliver a rockin' rendition of the Stampeders' "Sweet City Woman." It was his first offering in the Songversation that continues to this day. Countless house parties and basement jams in the North End of Halifax were a training ground for the young songster.</p>
                   <p class="my-3">His work in radio (CJCH 920 AM) in the '80s encouraged the start of his professional music career in the '90s. Initially performing with <em>The Luv Handles</em> and then fronting <em>The Laughing Freemen</em>, his passion has also extended into management, recording, publicity, tech, teaching, and consulting with many musical artists. He enjoys sharing his extensive industry experience with a new generation of performers.</p>
-                  <p class="my-3">Danny has started and maintained many musical relationships, largely due to his pure enjoyment of music: the songs, the artists, the history, and, in particular, the camaraderie and joy. He has been known to create parties from groups of strangers, encouraging an interactive, communal musical experience. Hosting numerous local jams and a 10-year stint at Long & McQuade further widened Danny's network of friends, fans, and jammers.</p>
+                  <p class="my-3">Danny has started and maintained many musical relationships, largely due to his pure enjoyment of music: the songs, the artists, the history, and, in particular, the camaraderie and joy. He has been known to create parties from groups of strangers, encouraging an interactive, communal musical experience. Hosting numerous local jams - including currently the weekly Dan's Jam at Eli + Trix in Mahone Bay, Nova Scotia - and a 10-year stint at Long & McQuade further widened Danny's network of friends, fans, and jammers.</p>
                   <p class="my-3">Whether solo, with an accompanist, or with the full band, Danny connects with an audience as if they were lifelong friends hanging in his living room. He has an uncanny ability to field requests for classic tracks...forever the spontaneous, witty, and professional showman with that uniquely identifiable rich, strong, expressive voice.</p>
                   <p class="my-3">If you've booked Danny Banfield, be prepared to sing along with songs you forgot you loved. Get ready to dance about, goof around, and maybe even join in the musical fun! You can expect reminiscences, laughter, and new memories with new friends.</p>
                   <p class="my-3">SING YA THERE!!</p>

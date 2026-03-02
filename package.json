@@ -14,7 +14,6 @@
   "dependencies": {
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.10.10",
-    "@supabase/supabase-js": "^1.35.7",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.14",
     "postcss": "^8.4.49",
