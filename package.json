@@ -23,7 +23,7 @@
     "vite-plugin-solid": "^2.10.2"
   },
   "devDependencies": {
-    "rimraf": "^5.0.10"
+    "rimraf": "^6.1.2"
   },
   "engines": {
     "node": ">=18"

@@ -1,3 +1,4 @@
+import { Title, Meta } from "@solidjs/meta";
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
 import DanInBar from "~/assets/nye.jpg";
@@ -5,7 +6,7 @@ import Dan2 from "~/assets/Dan2.png";
 import DB-qr from "~/assets/DB-qr.png";
 import MapIcon from "~/assets/map.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";
-import SundaySociablePromo from "~/assets/elitrix.jpg";
+import SundaySociablePromo from "~/assets/DansJam.jpg";
 import Facebook from "~/assets/logo-facebook.png";
 import Instagram from "~/assets/logo-instagram.png";
 import YouTube from "~/assets/logo-youtube.png";
@@ -14,7 +15,12 @@ import Logo from "~/assets/Logo.png";
 
 export function HomePage() {
   return (
-    <div class="flex flex-col min-h-dvh min-w-80 bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
+    <>
+      <Title>Danny Banfield - Classic Songs You Forgot You Loved</Title>
+      <Meta name="description" content="Danny Banfield's personal music artist website. An engaging entertainer with a golden voice and huge repertoire of classic songs, originals and covers. Book for events and musical entertainment." />
+      <Meta name="keywords" content="Danny Banfield, musician, artist, live music, Atlantic Canada, classic songs, covers, originals, entertainment, booking" />
+      
+      <div class="flex flex-col min-h-dvh min-w-80 bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
       <div class="md:container md:mx-auto">
         <div class="flex flex-col normal-container justify-around text-center m-0 p-0 mb-8">
           <Navbar />
@@ -61,10 +67,10 @@ export function HomePage() {
 
 
             {/* ---------- CLASSIC SONGS INTRO ---------- */}
-            <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6 text-center gap-4">
-              <div class="flex-col items-center">
+            <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6">
+              <div class="flex flex-col items-center text-center">
                 <div class="flex justify-center">
-                  <image src={Logo} alt="Danny Banfield Logo" width="256" />
+                  <img src={Logo} alt="Danny Banfield Logo" width="256" />
                 </div>
                 <div class="text-2xl font-sans font-bold my-2">
                   <span class="gradient-text">Classic Songs You Forgot You Loved</span>
@@ -78,8 +84,7 @@ export function HomePage() {
                 </div>
               </div>
               <div class="flex-col items-center w-full md:flex-col">
-                <image src={DanInBar} class="rounded-xl w-full max-w-[888px]" alt="Danny Banfield in the Bar" />
-              </div>
+                <img src={DanInBar} class="rounded-xl w-full max-w-[888px]" alt="Danny Banfield in the Bar" />              </div>
             </div>
 
             <div class="divider md:container gradient-text" />
@@ -111,13 +116,16 @@ export function HomePage() {
                 <div id="events-list" class="flex flex-col lg:flex-row lg:justify-around lg:gap-8">
                   <div id="sunday-sociable" class="flex flex-col lg:basis-1/2">
                     <div class="gradient-text text-4xl font-sans my-3">
-                      The Sunday Sociable
+                      Dan's Jam
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      Danny hosts every second Sunday
+                      Sponsored by Team United East
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      Alternate Sundays hosted by Doug Hawco, and Thompson & Middleton
+                      Every Thursday night 7pm start
+                    </div>
+                    <div class="gradient-text text-lg font-sans">
+                      DM Danny to jam!
                     </div>
 
                     <div class="flex flex-col lg:flex-row text-left mx-auto mt-3">
@@ -136,7 +144,7 @@ export function HomePage() {
                       </div>
                     </div>
                     <div class="flex flex-row justify-center mt-5">
-                      <image src={SundaySociablePromo} class="rounded-xl" style="max-height:480px;" alt="Sunday Sociable Promo" />
+                      <img src={SundaySociablePromo} class="rounded-xl" style="max-height:480px;" alt="Sunday Sociable Promo" />
                     </div>
                   </div>
                   <div id="kitchen-party" class="flex flex-col lg:basis-1/2">
@@ -166,7 +174,7 @@ export function HomePage() {
                       </div>
                     </div>
                     <div class="flex flex-row justify-center mt-5">
-                      <image src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
+                      <img src={ShipwrightPromo} class="rounded-xl" style="max-height:480px;" alt="Kitchen Party Promo" />
                     </div>
                   </div>
                 </div>
@@ -202,7 +210,7 @@ export function HomePage() {
               </div>
 
               <div class="flex flex-col justify-center mx-auto">
-                <image src={Dan2} class="px-4 rounded-xl max-w-fit" alt="Danny Performing" style="max-height: 640px;" />
+                <img src={Dan2} class="px-4 rounded-xl max-w-fit" alt="Danny Performing" style="max-height: 640px;" />
               </div>
             </div>
 
@@ -210,6 +218,7 @@ export function HomePage() {
           </main>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }
