@@ -37,7 +37,7 @@ export function HomePage() {
               <div class="text-amber-100 font-bold sm:text-4xl md:text-7xl lg:text-8xl">
                 <span class="gradient-text font-medium">DANNY BANFIELD</span>
               </div>
-              <a href="https://your-tipping-link-here.com" target="_blank" class="link text-amber-100 hover:text-yellow-500 transition-colors flex flex-col items-center text-center">
+              <a href="https://www.paypal.com/ncp/payment/45M5A6A3C93JW" target="_blank" class="link text-amber-100 hover:text-yellow-500 transition-colors flex flex-col items-center text-center">
                 <div class="bg-white p-2 rounded-lg shadow-lg inline-block">
                   <img 
                     src={DannyQR} 
