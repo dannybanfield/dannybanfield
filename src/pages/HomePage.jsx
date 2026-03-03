@@ -1,7 +1,7 @@
 import { Title, Meta } from "@solidjs/meta";
 import { Navbar } from "~/components/Navbar";
 import { BackToTop } from "~/components/BackToTop";
-import DanInBar from "~/assets/DanBar.jpg";
+import DanInBar from "~/assets/DanBar.webp";
 import Dan2 from "~/assets/Dan2.png";
 import DannyQR from "~/assets/DB-qr.png";
 import MapIcon from "~/assets/map.svg";
