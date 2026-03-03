@@ -20,7 +20,7 @@ export function HomePage() {
       <Meta name="description" content="Danny Banfield's personal music artist website. An engaging entertainer with a golden voice and huge repertoire of classic songs, originals and covers. Book for events and musical entertainment." />
       <Meta name="keywords" content="Danny Banfield, musician, artist, live music, Atlantic Canada, classic songs, covers, originals, entertainment, booking" />
       
-      <div class="flex flex-col min-h-dvh min-w-80 bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
+      <main class="flex flex-col min-h-dvh min-w-80 bg-black text-white bg-gradient-to-b from-black to-yellow-900 to-90% pb-4">
       <div class="md:container md:mx-auto">
         <div class="flex flex-col normal-container justify-around text-center m-0 p-0 mb-8">
           <Navbar />
@@ -80,7 +80,7 @@ export function HomePage() {
             </div>
 
             {/* ---------- CLASSIC SONGS INTRO ---------- */}
-            <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6">
+            <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6" id="classic-songs">
               <div class="flex flex-col items-center text-center">
                 <div class="flex justify-center">
                   <img src={Logo} alt="Danny Banfield Logo" width="256" />
@@ -97,7 +97,7 @@ export function HomePage() {
                 </div>
               </div>
               <div class="flex-col items-center w-full md:flex-col">
-                <img src={DanInBar} class="rounded-xl w-full max-w-[888px]" alt="Danny Banfield in the Bar" />              </div>
+                <img src={DanInBar} class="rounded-xl w-full max-w-[888px]" alt="Danny Banfield in the Bar" id="dan-in-bar-image" />              </div>
             </div>
 
             <div class="divider md:container gradient-text" />
@@ -231,7 +231,7 @@ export function HomePage() {
           </main>
         </div>
       </div>
-      </div>
+      </main>
     </>
   );
 }
