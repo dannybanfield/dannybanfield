@@ -6,7 +6,7 @@ import Dan2 from "~/assets/Dan2.png";
 import DannyQR from "~/assets/DB-qr.png";
 import MapIcon from "~/assets/map.svg";
 import ShipwrightPromo from "~/assets/shipwright830a.png";
-import SundaySociablePromo from "~/assets/DansJam.jpg";
+import SundaySociablePromo from "~/assets/DansJam6pm.jpg";
 import Facebook from "~/assets/logo-facebook.png";
 import Instagram from "~/assets/logo-instagram.png";
 import YouTube from "~/assets/logo-youtube.png";
