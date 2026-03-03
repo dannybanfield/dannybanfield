@@ -122,7 +122,7 @@ export function HomePage() {
               - and WHATEVER OTHER SONGS WE COME UP WITH IN THE SONGVERSATION!!!
             </div>
 
-            {/* ---------- NEWS: SUNDAY SOCIABLE & KITCHEN PARTY ---------- */}
+            {/* ---------- NEWS: DANS JAM & KITCHEN PARTY ---------- */}
             <div class="divider md:container gradient-text" />
             <div id="news" class="flex flex-row flex-wrap md:container justify-evenly text-center px-4">
               <div id="promo-list" class="flex flex-col px-4 w-full">
@@ -132,10 +132,10 @@ export function HomePage() {
                       Dan's Jam
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      Sponsored by Team United East
+                      Sponsored by Tanner & Co Brewing and Team United East
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      Every Thursday night 7pm start
+                      Every Thursday night 6pm start
                     </div>
                     <div class="gradient-text text-lg font-sans">
                       DM Danny to jam!
@@ -144,8 +144,8 @@ export function HomePage() {
                     <div class="flex flex-col lg:flex-row text-left mx-auto mt-3">
                       <div class="flex flex-col lg:text-right text-white">
                         <p>Eli + Trix</p>
-                        <p>Every 2nd Sunday</p>
-                        <p>2-4pm</p>
+                        <p>Every Thursday Night</p>
+                        <p>6-9pm</p>
                       </div>
                       <div class="flex flex-col lg:text-left lg:mx-4 justify-around">
                         <p>538 Main St.</p>
