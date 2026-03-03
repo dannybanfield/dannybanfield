@@ -33,8 +33,22 @@ export function HomePage() {
               <a href="/contact/#requests" target="_self" class="btn btn-ghost max-w-24 border-b">Requests!</a>
               <a href="/contact/#book" target="_self" class="btn btn-ghost max-w-24 border-b">Book Me!</a>
             </div>
-            <div class="flex flex-row text-amber-100 w-full justify-center font-bold sm:text-4xl md:text-7xl lg:text-8xl mt-6 mb-4">
-              <span class="gradient-text font-medium">DANNY BANFIELD</span>
+            <div class="flex flex-row items-center justify-center gap-8 mt-6 mb-4">
+              <div class="text-amber-100 font-bold sm:text-4xl md:text-7xl lg:text-8xl">
+                <span class="gradient-text font-medium">DANNY BANFIELD</span>
+              </div>
+              <a href="https://your-tipping-link-here.com" target="_blank" class="link text-amber-100 hover:text-yellow-500 transition-colors flex flex-col items-center text-center">
+                <div class="bg-white p-2 rounded-lg shadow-lg inline-block">
+                  <img 
+                    src={DannyQR} 
+                    alt="Tip Danny QR Code" 
+                    class="w-20 h-20 md:w-24 md:h-24" 
+                  />
+                </div>
+                <span class="text-xs mt-1">
+                  Danny's Tip Jar at Paypal
+                </span>
+              </a>
             </div>
 
             {/* ---------- SOCIAL MEDIA LINKS ---------- */}
@@ -64,19 +78,6 @@ export function HomePage() {
                 </a>
               </div>
             </div>
-{/* ---------- TIP JAR / QR CODE ---------- */}
-<div class="flex flex-col items-center my-8 px-4 text-center">
-  <div class="bg-white p-3 rounded-xl shadow-lg inline-block mb-3">
-    <img 
-      src={DannyQR} 
-      alt="Tip Danny QR Code" 
-      class="w-32 h-32 md:w-40 md:h-40" 
-    />
-  </div>
-  <a href="https://your-tipping-link-here.com" target="_blank" class="link text-amber-100 hover:text-yellow-500 transition-colors">
-    <p class="text-lg font-bold">Tip Danny for a performance by clicking here!</p>
-  </a>
-</div>
 
             {/* ---------- CLASSIC SONGS INTRO ---------- */}
             <div class="flex flex-row flex-wrap gap-8 lg:flex-nowrap text-amber-100 w-full justify-evenly px-8 my-6">
