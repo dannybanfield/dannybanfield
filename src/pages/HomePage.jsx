@@ -135,7 +135,10 @@ export function HomePage() {
                       Sponsored by Tanner & Co Brewing and Team United East
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      Every Thursday night - 7pm start Jun-Oct - 6pm start Nov-May
+                      Every Thursday night - 7pm start Jun-Oct
+                    </div>
+                    <div class="gradient-text text-lg font-sans">
+                      6pm start Nov-May
                     </div>
                     <div class="gradient-text text-lg font-sans">
                       DM Danny to jam!
