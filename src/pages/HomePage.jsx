@@ -135,7 +135,7 @@ export function HomePage() {
                       Sponsored by Tanner & Co Brewing and Team United East
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      Every Thursday night 6pm start
+                      Every Thursday night - 7pm start Jun-Oct - 6pm start Nov-May
                     </div>
                     <div class="gradient-text text-lg font-sans">
                       DM Danny to jam!
@@ -144,9 +144,6 @@ export function HomePage() {
                     <div class="flex flex-col lg:flex-row text-left mx-auto mt-3">
                       <div class="flex flex-col lg:text-right text-white">
                         <p>Eli + Trix</p>
-                        <p>Every Thursday Night</p>
-                        <p>6pm start Nov-May</p>
-                        <p>7pm start Jun-Oct</p>
                       </div>
                       <div class="flex flex-col lg:text-left lg:mx-4 justify-around">
                         <p>538 Main St.</p>
