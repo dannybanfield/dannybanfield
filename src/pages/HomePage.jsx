@@ -141,7 +141,7 @@ export function HomePage() {
                       6pm start Nov-May
                     </div>
                     <div class="gradient-text text-lg font-sans">
-                      DM Danny to jam!
+                      DM Danny Banfield or Darlen Guite to jam!
                     </div>
 
                     <div class="flex flex-col lg:flex-row text-left mx-auto mt-3">
